@@ -190,7 +190,7 @@ useHead({
       <div class="tokenomics-inner">
         <div class="container">
           <div class="row d-flex">
-            <div class="col-lg-5 align-self-center">
+            <div class="col-lg-6 align-self-center">
               <h2>Tokenomics</h2>
               <p>
                 GiftBox Tokens is capped at 1,000,000,000 (one billion) as its
@@ -204,13 +204,16 @@ useHead({
               </p>
               <p>
                 <span class="special">Special notes:</span>
-                30% tokens are allocated to the “community fund” to reward
-                platform users. These tokens are designed to circulate for
-                in-app activities. The platform users who hold tokens cannot
-                sell or resell out of the Sagoon platform, such as an exchange.
+                <i>
+                  30% tokens are allocated to the “community fund” to reward
+                  platform users. These tokens are designed to circulate for
+                  in-app activities. The platform users who hold tokens cannot
+                  sell or resell out of the Sagoon platform, such as an
+                  exchange.</i
+                >
               </p>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-1"></div>
 
             <div class="col-lg-5 align-self-center">
               <figure class="text-center">
@@ -237,22 +240,24 @@ useHead({
           <div class="col-sm-12">
             <div class="sec-team">
               <div class="sec-team-inner">
-                <figure>
-                  <img
-                    src="assets/images/team/paul.png"
-                    alt="paul"
-                    class="img-fluid"
-                  />
-                </figure>
-                <section>
-                  <h4>Paul Parker</h4>
-                  <span>Board of Directors</span>
-                  <p>
-                    Paul has over 15 years of experience in funds, finance,
-                    fintech, legal and compliance sectors. Additionally, Paul is
-                    a certified Bitcoin and crypto professional.
-                  </p>
-                </section>
+                <div class="d-flex">
+                  <figure>
+                    <img
+                      src="assets/images/team/paul.png"
+                      alt="paul"
+                      class="img-fluid"
+                    />
+                  </figure>
+                  <section>
+                    <h4>Paul Parker</h4>
+                    <span>Board of Directors</span>
+                    <p>
+                      Paul has over 15 years of experience in funds, finance,
+                      fintech, legal and compliance sectors. Additionally, Paul
+                      is a certified Bitcoin and crypto professional.
+                    </p>
+                  </section>
+                </div>
               </div>
             </div>
           </div>
@@ -261,43 +266,52 @@ useHead({
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
-                  <figure>
-                    <img
-                      src="assets/images/team/shantanu.png"
-                      alt="Shantanu Chandra"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Shantanu Chandra</h4>
-                    <span
-                      >Product Manager / Certified Blockchain Architect</span
-                    >
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/shantanu.png"
+                        alt="Shantanu Chandra"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Shantanu Chandra</h4>
+                      <span
+                        >Product Manager /<br />
+                        Certified Blockchain Architect</span
+                      >
+                    </section>
+                  </div>
+                  <div class="d-break">
                     <p>
                       6+ years of experience in dapps. platforms designing and
                       implementation.
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
 
               <div class="sec-team">
                 <div class="sec-team-inner">
-                  <figure>
-                    <img
-                      src="assets/images/team/sharansh.png"
-                      alt="Sharansh Guha"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Sharansh Guha</h4>
-                    <span>Certified Blockchain Developer</span>
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/sharansh.png"
+                        alt="Sharansh Guha"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Sharansh Guha</h4>
+                      <span>Certified Blockchain Developer</span>
+                    </section>
+                  </div>
+                  <div class="break">
                     <p>
                       5 years experience in blockchain development. Developed
                       15+ dapps.
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
             </div>
@@ -307,41 +321,55 @@ useHead({
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
-                  <figure>
-                    <img
-                      src="assets/images/team/govinda-sir.png"
-                      alt="Govinda Giri"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Govinda Giri</h4>
-                    <span>Founder / CEO Creative mind behind Sagoon</span>
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/govinda-sir.png"
+                        alt="Govinda Giri"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Govinda Giri</h4>
+                      <span
+                        >Founder / CEO<br />
+                        Creative mind behind Sagoon</span
+                      >
+                    </section>
+                  </div>
+                  <div class="d-break">
                     <p>
                       20+ years of experience in products, business, technology,
                       and management. 11+ years experience working as system
                       engineer at L3/Pentagon.
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
               <div class="sec-team">
                 <div class="sec-team-inner">
-                  <figure>
-                    <img
-                      src="assets/images/team/swati.png"
-                      alt="Swati Dayal"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Swati Dayal</h4>
-                    <span>Co-founder / Chief of product & Growth</span>
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/swati.png"
+                        alt="Swati Dayal"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Swati Dayal</h4>
+                      <span
+                        >Co-founder / Chief of<br />
+                        product & Growth</span
+                      >
+                    </section>
+                  </div>
+                  <div class="d-break">
                     <p>
                       11+ years of experience building products, technology, and
                       growth. Social media app scale to 7 million users
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
             </div>
@@ -351,40 +379,49 @@ useHead({
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
-                  <figure>
-                    <img
-                      src="assets/images/team/niranjan.png"
-                      alt="Niranjan Bhambi"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Niranjan Bhambi</h4>
-                    <span>Chief Engineer</span>
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/niranjan.png"
+                        alt="Niranjan Bhambi"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Niranjan Bhambi</h4>
+                      <span>Chief Engineer</span>
+                    </section>
+                  </div>
+
+                  <div class="d-break">
                     <p>
                       14+ years of experience building web and mobile apps. Has
                       built 10-15 social media tools and scaled them to 3M users
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
               <div class="sec-team">
                 <div class="sec-team-inner">
-                  <figure>
-                    <img
-                      src="assets/images/team/omer.png"
-                      alt="Omer Bhat"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Omer Bhat</h4>
-                    <span>Product Strategist</span>
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/omer.png"
+                        alt="Omer Bhat"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Omer Bhat</h4>
+                      <span>Product Strategist</span>
+                    </section>
+                  </div>
+                  <div class="d-break">
                     <p>
                       I am the bridge between developers, users, and business
                       objectives to create the experience that fits best.
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
             </div>
@@ -489,7 +526,7 @@ useHead({
 
                   <div>
                     <input
-                      type="number"
+                      type="tel"
                       name="number"
                       id="number"
                       placeholder="Phone Number"

@@ -20,8 +20,8 @@ useHead({
   link: [
     {
       rel: "icon",
-      type: "image/png",
-      href: "/assets/favicon.png",
+      type: "image/ico",
+      href: "favicon.ico",
     },
   ],
 });
