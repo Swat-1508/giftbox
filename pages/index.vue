@@ -29,7 +29,7 @@ useHead({
 
 <template>
   <div>
-    <div class="banner-main">
+    <div class="banner-main" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 d-lg-none text-center">
@@ -47,26 +47,26 @@ useHead({
               <span class="welcome">Welcome!</span>
               Your time!<br />
               Your money!<br />
-              You earn GiftBox!
+              You earn GiftBox tokens!
             </h1>
             <p>
-              GiftBox is a engage to earn utility token that rewards you for
-              gift-giving and socializing with your people.
+              GiftBox is an engage-to-earn crypto utility token that facilitates
+              a unified gift-giving experience for platform users.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="marquee-section">
-      <marquee behavior="" direction=""
-        ><p>“Our vision: The Giftbox token will serve as a gifting</p>
-        <p>“Our vision: The Giftbox token will serve as a gifting</p>
-        <p>“Our vision: The Giftbox token will serve as a gifting</p></marquee
-      >
+    <div class="marquee-section" data-aos="fade-up">
+      <marquee behavior="" direction="" scrollamount="12"
+        ><p>Mission: GiftBox token aims to be the future gifting currency!</p>
+        <p>Mission: GiftBox token aims to be the future gifting currency!</p>
+        <p>Mission: GiftBox token aims to be the future gifting currency!</p>
+      </marquee>
     </div>
 
-    <div class="sec-block-chain">
+    <div class="sec-block-chain" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-lg-6"></div>
@@ -77,51 +77,48 @@ useHead({
           </div>
           <div class="col-lg-6">
             <h2>
-              Sagoon – the blockchain-powered social gifting
-              <img src="assets/images/gifting.png" alt="" /> platform:
+              <small>Sagoon – </small><br />
+              The blockchain-powered social gifting platform:
             </h2>
+            <ul>
+              <li>
+                <strong>Gift-Giving: </strong>
+                <span
+                  >Sagoon wants to transform gift-giving to enhance
+                  relationships— regardless of distance.</span
+                >
+              </li>
+              <li>
+                <strong>GiftBox Token: </strong>
+                <span
+                  >Develops by Sagoon to provide a monetary incentive for
+                  gift-giving and socializing on the platform.</span
+                >
+              </li>
+            </ul>
             <p>
-              <strong>Gift-Giving:</strong> Sagoon aims to revolutionize
-              gift-giving to build relationships strong. Users can celebrate
-              LIVE events like Birthdays, exchange gifts in real- time, and
-              share emotions— regardless of distance.
+              <NuxtLink href="https://sagoon.com/" target="_blank" class="btn"
+                >Visit Sagoon website</NuxtLink
+              >
             </p>
-            <p>
-              <strong>GiftBox Token:</strong> With the introduction of the
-              GiftBox Token, Sagoon provides monetary incentives for gift-giving
-              and socializing activities.
-            </p>
-            <p>
-              <strong>Utility and In-App Currency:</strong> GiftBox serves not
-              only as utility tokens but also as an in-app currency (when
-              available) for transactions.
-            </p>
-            <NuxtLink href="https://sagoon.com/" target="_blank" class="btn"
-              >Visit Sagoon website</NuxtLink
-            >
           </div>
         </div>
       </div>
     </div>
 
-    <div class="app-sagoon">
+    <div class="app-sagoon" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>Sagoon App <img src="assets/images/star.png" alt="" /></h2>
+            <h2>A memorable experience for an online celebration</h2>
             <p>
-              Sagoon’s app allows users to celebrate LIVE events like birthdays
-              by sending instant gifts and wishes.
+              Say goodbye to distance and celebrate your special moments live
+              with instant gift-giving and earn tokens for doing.
             </p>
-            <p>
-              Additionally, users can surprise family and friends with
-              personalize gifts on various occasions like Diwali, Christmas and
-              more from their Wishlist.
-            </p>
-            <a href="#" class="learn-more">Learn more</a>
-            <a href=""
+            <p class="wht">For more, check the app.</p>
+            <NuxtLink href="https://bit.ly/3PJKCVM" target="_blank"
               ><img src="assets/images/get-it-on.png" alt="" class="img-fluid"
-            /></a>
+            /></NuxtLink>
           </div>
           <div class="col-lg-2"></div>
           <div class="col-lg-4">
@@ -132,11 +129,12 @@ useHead({
                 class="img-fluid"
               />
             </figure>
+            <figcaption class="text-center">Sagoon platform</figcaption>
           </div>
         </div>
       </div>
     </div>
-    <div class="giftbox-tokens">
+    <div class="giftbox-tokens" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
@@ -149,35 +147,21 @@ useHead({
             </figure>
           </div>
 
-          <div class="col-lg-6 order-1 order-lg-2">
-            <h2>GiftBox token</h2>
-            <p>
-              The GiftBox is a cryptographic token that will be integrated into
-              Sagoon platform, designed to tokenize gift-giving and socializing
-              activities.
-            </p>
-            <h3>GiftBox — Utility Token</h3>
+          <div class="col-lg-6 order-1 order-lg-2 align-self-center">
+            <h2>GiftBox Token — Key Usage:</h2>
             <ul>
               <li>
-                <strong>Earn tokens while gifting!</strong>
                 <span>
-                  Users can acquire tokens by exchanging gifts and engaging in
-                  relevant activities on Sagoon platform and network.</span
-                >
+                  Users can acquire tokens by exchanging gifts, engaging in
+                  relevant activities, and transferring tokens to others as
+                  gifts.
+                </span>
               </li>
               <li>
-                <strong>Enjoy economic benefits!</strong>
                 <span
                   >Users can redeem the value of their earned tokens to purchase
                   in-app gifts and services offered by commercial
                   partners.</span
-                >
-              </li>
-              <li>
-                <strong>Easy tokens gifting!</strong>
-                <span
-                  >Users can easily transfer tokens to others as gifts within
-                  the Sagoon platform without incurring any gas fees.</span
                 >
               </li>
             </ul>
@@ -186,31 +170,24 @@ useHead({
       </div>
     </div>
 
-    <div class="tokenomics">
+    <div class="tokenomics" data-aos="fade-up">
       <div class="tokenomics-inner">
         <div class="container">
           <div class="row d-flex">
             <div class="col-lg-6 align-self-center">
-              <h2>Tokenomics</h2>
+              <h2>
+                <small>Tokenomics—</small><br />
+                Designed to help the community grow.
+              </h2>
               <p>
-                GiftBox Tokens is capped at 1,000,000,000 (one billion) as its
+                GiftBox Token is capped at 4,000,000,000 (four billion) as its
                 total token supply at the token generation event. No other
                 tokens shall be created.
               </p>
               <p>
-                GiftBox Tokens is capped at 1,000,000,000 (one billion) as its
-                total token supply at the token generation event. No other
-                tokens shall be created.
-              </p>
-              <p>
-                <span class="special">Special notes:</span>
-                <i>
-                  30% tokens are allocated to the “community fund” to reward
-                  platform users. These tokens are designed to circulate for
-                  in-app activities. The platform users who hold tokens cannot
-                  sell or resell out of the Sagoon platform, such as an
-                  exchange.</i
-                >
+                30% of tokens are allocated to reward platform users. These
+                tokens are intended to use in-app activities with monetary
+                value.
               </p>
             </div>
             <div class="col-lg-1"></div>
@@ -228,7 +205,7 @@ useHead({
         </div>
       </div>
     </div>
-    <div class="team-gift">
+    <div class="team-gift" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
@@ -238,32 +215,32 @@ useHead({
 
         <div class="row">
           <div class="col-sm-12">
-            <div class="sec-team">
-              <div class="sec-team-inner">
-                <div class="d-flex">
-                  <figure>
-                    <img
-                      src="assets/images/team/paul.png"
-                      alt="paul"
-                      class="img-fluid"
-                    />
-                  </figure>
-                  <section>
-                    <h4>Paul Parker</h4>
-                    <span>Board of Directors</span>
+            <div class="team-outer">
+              <div class="sec-team">
+                <div class="sec-team-inner">
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/paul.png"
+                        alt="Shantanu Chandra"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Paul Parker</h4>
+                      <span>Board of Directors</span>
+                    </section>
+                  </div>
+                  <div class="d-break">
                     <p>
                       Paul has over 15 years of experience in funds, finance,
                       fintech, legal and compliance sectors. Additionally, Paul
                       is a certified Bitcoin and crypto professional.
                     </p>
-                  </section>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-sm-12">
-            <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
                   <div class="d-flex">
@@ -290,7 +267,11 @@ useHead({
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
 
+          <div class="col-sm-12">
+            <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
                   <div class="d-flex">
@@ -314,11 +295,6 @@ useHead({
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12">
-            <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
                   <div class="d-flex">
@@ -346,6 +322,11 @@ useHead({
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
                   <div class="d-flex">
@@ -372,11 +353,6 @@ useHead({
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12">
-            <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
                   <div class="d-flex">
@@ -401,6 +377,11 @@ useHead({
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
                   <div class="d-flex">
@@ -424,10 +405,75 @@ useHead({
                   </div>
                 </div>
               </div>
+              <div class="sec-team">
+                <div class="sec-team-inner">
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/niranjan.png"
+                        alt="Niranjan Bhambi"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Parag Arora</h4>
+                      <span>Advisor | Founder at Revelin7</span>
+                    </section>
+                  </div>
+
+                  <div class="d-break">
+                    <p>
+                      7+ years of experience in blockchains/crypto space.
+                      Founding team at Xfinite.io – a decentralized
+                      entertainment platform. Co-founder – YCombinator-backed
+                      messaging app.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="col-sm-12">
+            <div class="team-outer">
+              <div class="sec-team">
+                <div class="sec-team-inner">
+                  <div class="d-flex">
+                    <figure>
+                      <img
+                        src="assets/images/team/omer.png"
+                        alt="Omer Bhat"
+                        class="img-fluid"
+                      />
+                    </figure>
+                    <section>
+                      <h4>Jhakendra Sharma</h4>
+                      <span>Advisor | Director at Bhargo Capital</span>
+                    </section>
+                  </div>
+                  <div class="d-break">
+                    <p>
+                      10 + years of experience in financial planning and risk
+                      management. Angel investor, a member of DeFi Blockchain
+                      Council. Advocate at corporate and finance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sec-team">
+                <div class="sec-team-inner d-flex align-items-center">
+                  <p class="text-center mx-auto mb-0">
+                    A team of 14+ developers & designers, with 10+ years of<br />
+                    experience in Web2, and over 5 years of experience in
+                    crypto—web3 space.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-sm-12">
             <div class="sec-team w-100">
               <div class="sec-team-inner w-100">
                 <p class="text-center mx-auto mb-0">
@@ -437,12 +483,12 @@ useHead({
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
 
-    <div class="join-community">
+    <div class="join-community" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -466,7 +512,12 @@ useHead({
                   Stay informed on the Pre-sale by joining the official Discord
                   server.
                 </p>
-                <a href="#" class="btn-join"><span>Join Discord</span></a>
+                <NuxtLink
+                  href="https://discord.gg/FkQDANrF29"
+                  target="_blank"
+                  class="btn-join"
+                  ><span>Join Discord</span></NuxtLink
+                >
               </section>
             </div>
 
@@ -479,7 +530,12 @@ useHead({
                   Stay informed on the announcements by joining the official
                   Telegram server.
                 </p>
-                <a href="#" class="btn-join"><span>Join Telegram</span></a>
+                <NuxtLink
+                  href="https://t.me/GiftBoxToken"
+                  class="btn-join"
+                  target="_blank"
+                  ><span>Join Telegram</span></NuxtLink
+                >
               </section>
             </div>
           </div>
@@ -487,19 +543,29 @@ useHead({
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-sm-12">
           <div class="start-invest">
             <div class="inner-glow">
               <div class="row">
                 <div class="col-lg-6">
-                  <h3>Start investing in Giftbox now!</h3>
+                  <h3>Introducing the GiftBox Founders Club!</h3>
                   <p>
-                    A crypto utility asset—into Sagoon app to offer a better
-                    incentive to monetize users' time and activities on the
-                    Sagoon platform.
+                    This club empowers early backers of the GiftBox token
+                    ecosystem.
                   </p>
+                  <ul>
+                    <li>Exclusive membership through invitation.</li>
+                    <li>
+                      Gain voting rights in the DAO to shape the GiftBox's
+                      future.
+                    </li>
+                    <li>
+                      Engage in collaboration, innovation, and community
+                      connections.
+                    </li>
+                  </ul>
                 </div>
 
                 <div class="col-lg-6">
@@ -536,12 +602,13 @@ useHead({
                   </div>
 
                   <div class="col-12">
+                    <p class="space-top">Interested in becoming a member?</p>
                     <input
                       id="submitButton"
                       type="submit"
                       name="Submit"
                       class="btn-sbmt"
-                      value="Become an investor"
+                      value="Send request"
                     />
                   </div>
                 </div>
