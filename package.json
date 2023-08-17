@@ -8,6 +8,12 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
+    "remove": "^0.1.5"
+  },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/html-validator": "^1.5.2",
@@ -16,9 +22,5 @@
     "nuxt": "^3.6.5",
     "nuxt-capo": "^0.1.0",
     "sass": "^1.64.2"
-  },
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "bootstrap": "^5.3.1"
   }
 }
