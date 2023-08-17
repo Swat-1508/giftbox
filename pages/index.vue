@@ -35,7 +35,7 @@ useHead({
           <div class="col-sm-12 d-lg-none text-center">
             <figure>
               <img
-                src="assets/images/illustration.png"
+                src="/assets/images/illustration.png"
                 class="img-fluid"
                 alt=""
               />
@@ -72,7 +72,7 @@ useHead({
           <div class="col-lg-6"></div>
           <div class="col-12 d-lg-none">
             <figure class="text-center">
-              <img src="assets/images/giftsbox.png" class="img-fluid" alt="" />
+              <img src="/assets/images/giftsbox.png" class="img-fluid" alt="" />
             </figure>
           </div>
           <div class="col-lg-6">
@@ -117,14 +117,14 @@ useHead({
             </p>
             <p class="wht">For more, check the app.</p>
             <NuxtLink href="https://bit.ly/3PJKCVM" target="_blank"
-              ><img src="assets/images/get-it-on.png" alt="" class="img-fluid"
+              ><img src="/assets/images/get-it-on.png" alt="" class="img-fluid"
             /></NuxtLink>
           </div>
           <div class="col-lg-2"></div>
           <div class="col-lg-4">
             <figure>
               <img
-                src="assets/images/mobile-screen.png"
+                src="/assets/images/mobile-screen.png"
                 alt=""
                 class="img-fluid"
               />
@@ -140,7 +140,7 @@ useHead({
           <div class="col-lg-6 order-2 order-lg-1">
             <figure class="text-center">
               <img
-                src="assets/images/giftbox-token.png"
+                src="/assets/images/giftbox-token.png"
                 alt=""
                 class="img-fluid"
               />
@@ -195,7 +195,7 @@ useHead({
             <div class="col-lg-5 align-self-center">
               <figure class="text-center">
                 <img
-                  src="assets/images/chart-graph.png"
+                  src="/assets/images/chart-graph.png"
                   class="img-fluid"
                   alt="chart"
                 />
@@ -221,7 +221,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/paul.png"
+                        src="/assets/images/team/paul.png"
                         alt="Shantanu Chandra"
                         class="img-fluid"
                       />
@@ -246,7 +246,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/shantanu.png"
+                        src="/assets/images/team/shantanu.png"
                         alt="Shantanu Chandra"
                         class="img-fluid"
                       />
@@ -277,7 +277,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/sharansh.png"
+                        src="/assets/images/team/sharansh.png"
                         alt="Sharansh Guha"
                         class="img-fluid"
                       />
@@ -300,7 +300,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/govinda-sir.png"
+                        src="/assets/images/team/govinda-sir.png"
                         alt="Govinda Giri"
                         class="img-fluid"
                       />
@@ -332,7 +332,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/swati.png"
+                        src="/assets/images/team/swati.png"
                         alt="Swati Dayal"
                         class="img-fluid"
                       />
@@ -358,7 +358,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/niranjan.png"
+                        src="/assets/images/team/niranjan.png"
                         alt="Niranjan Bhambi"
                         class="img-fluid"
                       />
@@ -387,7 +387,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/omer.png"
+                        src="/assets/images/team/omer.png"
                         alt="Omer Bhat"
                         class="img-fluid"
                       />
@@ -410,7 +410,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/niranjan.png"
+                        src="/assets/images/team/niranjan.png"
                         alt="Niranjan Bhambi"
                         class="img-fluid"
                       />
@@ -441,7 +441,7 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="assets/images/team/omer.png"
+                        src="/assets/images/team/omer.png"
                         alt="Omer Bhat"
                         class="img-fluid"
                       />
@@ -498,14 +498,18 @@ useHead({
         <div class="row">
           <div class="col-lg-5">
             <figure>
-              <img src="assets/images/community.png" class="img-fluid" alt="" />
+              <img
+                src="/assets/images/community.png"
+                class="img-fluid"
+                alt=""
+              />
             </figure>
           </div>
           <div class="col-lg-1"></div>
           <div class="col-lg-6">
             <div class="sec-join">
               <figure>
-                <img src="assets/images/discord.png" alt="" />
+                <img src="/assets/images/discord.png" alt="" />
               </figure>
               <section>
                 <p>
@@ -523,7 +527,7 @@ useHead({
 
             <div class="sec-join">
               <figure>
-                <img src="assets/images/telegram.png" alt="" />
+                <img src="/assets/images/telegram.png" alt="" />
               </figure>
               <section>
                 <p>
@@ -576,7 +580,6 @@ useHead({
                       id="Name"
                       placeholder="Name"
                       class="form-control"
-                      required=""
                     />
                   </div>
                   <div>
@@ -586,7 +589,6 @@ useHead({
                       id="email"
                       placeholder="Email"
                       class="form-control"
-                      required=""
                     />
                   </div>
 
@@ -597,7 +599,6 @@ useHead({
                       id="number"
                       placeholder="Phone Number"
                       class="form-control"
-                      required=""
                     />
                   </div>
 
@@ -635,7 +636,6 @@ useHead({
                         id="firstName"
                         placeholder="First Name"
                         class="form-control"
-                        required=""
                         fdprocessedid="s9yy4"
                       />
                     </div>
@@ -648,7 +648,6 @@ useHead({
                         id="lastName"
                         placeholder="Last Name"
                         class="form-control"
-                        required=""
                         fdprocessedid="jzq03s"
                       />
                     </div>
@@ -661,7 +660,6 @@ useHead({
                         id="email"
                         placeholder="Email"
                         class="form-control"
-                        required=""
                         fdprocessedid="e7pxkd"
                       />
                     </div>
@@ -674,7 +672,6 @@ useHead({
                         id="phoneNumber"
                         placeholder="+44-1234567890"
                         class="form-control"
-                        required=""
                         fdprocessedid="5ero6"
                       />
                     </div>
@@ -688,7 +685,6 @@ useHead({
                         id="messagetext"
                         class="form-control"
                         placeholder="Message"
-                        required=""
                       ></textarea>
                     </div>
                   </div>
@@ -721,7 +717,7 @@ useHead({
                           <button id="refreshButton" type="submit" class="">
                             <img
                               style="color: white"
-                              src="assets/images/refresh.png"
+                              src="/assets/images/refresh.png"
                             />
                           </button>
                         </div>

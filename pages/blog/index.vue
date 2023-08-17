@@ -34,7 +34,7 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
-              src="assets/images/corporate-gifting-giftbox-min.png"
+              src="/assets/images/corporate-gifting-giftbox-min.png"
               class="img-fluid"
               alt="Corporate Gifting"
             />
@@ -62,7 +62,7 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
-              src="assets/images/live-celebration-min.png"
+              src="/assets/images/live-celebration-min.png"
               class="img-fluid"
               alt="Live celebration"
             />
@@ -90,7 +90,7 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
-              src="assets/images/trending-gift-box.jpg"
+              src="/assets/images/trending-gift-box.jpg"
               class="img-fluid"
               alt="gifting"
             />
@@ -115,7 +115,7 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
-              src="assets/images/tips-to-choose-min.png"
+              src="/assets/images/tips-to-choose-min.png"
               class="img-fluid"
               alt="gifting"
             />
@@ -142,7 +142,7 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
-              src="assets/images/gifting-fig.jpg"
+              src="/assets/images/gifting-fig.jpg"
               class="img-fluid"
               alt="gifting"
             />
