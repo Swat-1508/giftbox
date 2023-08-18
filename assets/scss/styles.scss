@@ -1,6 +1,24 @@
 @import "~~/node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+.curve-shape {
+  margin-bottom: -12px;
+  overflow-x: hidden;
+}
+.curve-shape svg {
+  animation: move-left 6s linear infinite;
+  position: relative;
+  width: 200%;
+}
+@keyframes move-left {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
 @media (min-width: 576px) {
   .container-sm,
   .container {
@@ -277,6 +295,8 @@ h3 {
   padding: 0px 0 0px;
   color: #fff;
   margin-top: 0px;
+  background: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
   h3 {
     text-align: center;
     background: url("/assets/images/team-hdn-bg.png") 6px 5px no-repeat;

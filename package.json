@@ -12,7 +12,8 @@
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.1",
-    "remove": "^0.1.5"
+    "remove": "^0.1.5",
+    "vue3-lottie": "^3.0.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

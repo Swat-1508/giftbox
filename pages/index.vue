@@ -204,8 +204,24 @@ useHead({
           </div>
         </div>
       </div>
+      <div class="curve-shape mt-4">
+        <svg
+          x="0px"
+          y="0px"
+          viewBox="0 0 3841 120"
+          xml:space="preserve"
+          style="overflow: scroll"
+        >
+          <path
+            d="M3360.5,97.739c-242,0-480-48.375-480-48.375
+                    S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
+                    S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"
+            style="fill: #0d162a; stroke-miterlimit: 10"
+          ></path>
+        </svg>
+      </div>
     </div>
-    <div class="team-gift" data-aos="fade-up">
+    <div class="team-gift pt-4">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
@@ -214,7 +230,7 @@ useHead({
         </div>
 
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-12" data-aos="fade-up">
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
@@ -270,7 +286,7 @@ useHead({
             </div>
           </div>
 
-          <div class="col-sm-12">
+          <div class="col-sm-12" data-aos="fade-up">
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
@@ -325,7 +341,7 @@ useHead({
             </div>
           </div>
 
-          <div class="col-sm-12">
+          <div class="col-sm-12" data-aos="fade-up">
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
@@ -380,7 +396,7 @@ useHead({
             </div>
           </div>
 
-          <div class="col-sm-12">
+          <div class="col-sm-12" data-aos="fade-up">
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
@@ -434,7 +450,7 @@ useHead({
             </div>
           </div>
 
-          <div class="col-sm-12">
+          <div class="col-sm-12" data-aos="fade-up">
             <div class="team-outer">
               <div class="sec-team">
                 <div class="sec-team-inner">
@@ -487,8 +503,7 @@ useHead({
         </div>
       </div>
     </div>
-
-    <div class="join-community" data-aos="fade-up">
+    <div class="join-community">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -496,17 +511,25 @@ useHead({
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-5">
-            <figure>
+          <div class="col-lg-5" data-aos="fade-up">
+            <!-- <figure>
               <img
                 src="/assets/images/community.png"
                 class="img-fluid"
                 alt=""
               />
-            </figure>
+            </figure> -->
+            <ClientOnly>
+              <Vue3Lottie
+                animationLink="/assets/community.json"
+                :loop="true"
+                width="100%"
+                :speed="0.5"
+              />
+            </ClientOnly>
           </div>
           <div class="col-lg-1"></div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-up">
             <div class="sec-join">
               <figure>
                 <img src="/assets/images/discord.png" alt="" />
@@ -520,8 +543,9 @@ useHead({
                   href="https://discord.gg/FkQDANrF29"
                   target="_blank"
                   class="btn-join"
-                  ><span>Join Discord</span></NuxtLink
                 >
+                  <span>Join Discord</span>
+                </NuxtLink>
               </section>
             </div>
 
