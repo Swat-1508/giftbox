@@ -202,10 +202,11 @@ h3 {
 
 .sec-block-chain {
   padding: 200px 0 180px 0;
-  background: url("/assets/images/blockchain/bg.png") center left no-repeat;
-  background-size: 80vw auto;
-  background-position-x: -20vw;
+  background: url("/assets/images/blockchain/bg.svg") center left no-repeat;
+  background-size: 72vw auto;
+  background-position-x: -21vw;
   margin-top: -29px;
+  background-position-y: -16vh;
   figure {
     max-width: 90%;
     .two_large {
@@ -1130,6 +1131,9 @@ h3 {
   }
   .sec-block-chain {
     background: none;
+    figure {
+      height: 640px;
+    }
   }
   .app-sagoon {
     background: none;
@@ -1141,6 +1145,10 @@ h3 {
   }
   .giftbox-tokens {
     padding: 72px 0 0;
+    figure {
+      margin-top: 20px;
+      margin-left: -75px;
+    }
   }
   .tokenomics .tokenomics-inner {
     padding: 48px 0 60px;
@@ -1174,6 +1182,9 @@ h3 {
   }
   .sec-block-chain {
     padding: 32px 0 0;
+    .img-box {
+      height: 520px;
+    }
   }
   .app-sagoon {
     padding: 36px 0;
@@ -1225,8 +1236,9 @@ h3 {
   }
 }
 @media (max-width: 575px) {
-  .col-12 {
-    padding: 0 16px;
+  .col-12,
+  .col-lg-6 {
+    padding: 0 20px;
   }
   .banner-main {
     margin: 0;
@@ -1330,8 +1342,21 @@ h3 {
       display: block;
       margin-bottom: 50px;
       figure {
-        width: 50%;
-        margin-bottom: 10px;
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+        min-height: 100px;
+        line-height: 0;
+        padding: 15px;
+        img {
+          width: 70px;
+        }
+      }
+      figure.discord {
+        padding-top: 22px;
+      }
+      .mb-20 {
+        padding-top: 20px;
       }
     }
   }

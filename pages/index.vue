@@ -84,7 +84,7 @@ useHead({
                 alt="gift box"
               />
               <img
-                src="/assets/images/blockchain/gift_box.png"
+                src="/assets/images/blockchain/gift_box.svg"
                 class="img-fluid position-absolute left-0 top-0 gift_box"
                 alt="gift box"
               />
@@ -591,7 +591,7 @@ useHead({
           </div>
           <div class="col-lg-6 col-12" data-aos="fade-up">
             <div class="sec-join">
-              <figure>
+              <figure class="discord">
                 <img src="/assets/images/discord.png" alt="" />
               </figure>
               <section>
@@ -599,13 +599,15 @@ useHead({
                   "Stay updated on announcements, news, and updates—join our
                   official Discord channel."
                 </p>
-                <NuxtLink
-                  href="https://discord.gg/FkQDANrF29"
-                  target="_blank"
-                  class="theme-btn"
-                >
-                  <span>Join Discord</span>
-                </NuxtLink>
+                <p class="mb-20">
+                  <NuxtLink
+                    href="https://discord.gg/FkQDANrF29"
+                    target="_blank"
+                    class="theme-btn"
+                  >
+                    <span>Join Discord</span>
+                  </NuxtLink>
+                </p>
               </section>
             </div>
 
@@ -618,12 +620,14 @@ useHead({
                   "Stay updated on announcements, news, and updates—join our
                   official Telegram channel."
                 </p>
-                <NuxtLink
-                  href="https://t.me/GiftBoxToken"
-                  class="theme-btn"
-                  target="_blank"
-                  ><span>Join Telegram</span></NuxtLink
-                >
+                <p class="mb-20">
+                  <NuxtLink
+                    href="https://t.me/GiftBoxToken"
+                    class="theme-btn"
+                    target="_blank"
+                    ><span>Join Telegram</span></NuxtLink
+                  >
+                </p>
               </section>
             </div>
           </div>
