@@ -52,8 +52,71 @@
     </header>
     <!-- header ends here -->
   </div>
+
+  <div
+    class="modal fade"
+    id="contactModal"
+    tabindex="-1"
+    aria-labelledby="contactModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="start-invest m-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32px"
+                viewBox="0 0 24 24"
+                width="32px"
+                fill="#FFFFFF"
+              >
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+                />
+              </svg>
+            </button>
+            <div class="inner-glow">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h3 class="text-start">We’d love to hear from you!</h3>
+                  <p>
+                    Contact our customer support team for all inquiries,
+                    including product feedback, partnerships etc.
+                  </p>
+                  <p>
+                    Email:
+                    <a
+                      href="mailto:connect@giftbox.network"
+                      target="_blank"
+                      class="text-white"
+                    >
+                      connect@giftbox.network
+                    </a>
+                  </p>
+                </div>
+
+                <div class="col-lg-6">
+                  <ContactForm />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script lang="ts" setup>
+import ContactForm from "~/components/ContactForm.vue";
+import InvestorForm from "~/components/InvestorForm.vue";
 let active = ref("");
 const props = defineProps({
   headerclass: {

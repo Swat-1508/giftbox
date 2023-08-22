@@ -17,7 +17,19 @@
   border-radius: 9999px;
   background-color: #162548;
 }
-
+.navbar-toggler {
+  border: 0px;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("/assets/images/menu_white_24dp.svg");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
 .curve-shape {
   margin-bottom: -12px;
   overflow-x: hidden;
@@ -681,7 +693,7 @@ h3 {
 }
 
 .blog-sec {
-  padding: 140px 0 0px;
+  padding: 40px 0 0px;
   color: #fff;
   flex-grow: 1;
   max-width: 812px;
@@ -1177,13 +1189,16 @@ h3 {
 }
 
 @media (max-width: 767px) {
+  .blog-sec {
+    padding: 0px 0 0px;
+}
   .banner-main {
     background: none;
   }
   .sec-block-chain {
     padding: 32px 0 0;
     .img-box {
-      height: 520px;
+      height:auto;
     }
   }
   .app-sagoon {
@@ -1296,7 +1311,7 @@ h3 {
     }
   }
   .giftbox-tokens {
-    padding-top: 80px;
+    padding-top: 0px;
     figure {
       max-width: 90%;
       margin: 0 5%;
