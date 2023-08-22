@@ -26,7 +26,11 @@ export default defineNuxtConfig({
     },
   },
   typescript: {
-    strict: true,
+    strict: false,
   },
   modules: ["@nuxtjs/web-vitals", "nuxt-capo", "@nuxtjs/html-validator"],
+  build: {
+    // vue-toastification - old commonjs module
+    transpile: ["vue-toastification"],
+  },
 });

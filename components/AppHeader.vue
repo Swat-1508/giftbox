@@ -10,13 +10,13 @@
     <header class="header">
       <nav
         id="mainnav"
-        class="navbar navbar-expand-lg fixed-top"
+        class="navbar navbar-expand-lg"
         :class="[active, headerclass]"
       >
         <div class="container">
-          <NuxtLink class="navbar-brand" to="/"
-            ><img src="/assets/images/logo-gift.svg" alt="giftbox"
-          /></NuxtLink>
+          <NuxtLink class="navbar-brand" to="/">
+            <img src="/assets/images/logo-gift.svg" alt="giftbox" />
+          </NuxtLink>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,7 +37,13 @@
                 <NuxtLink class="nav-link" href="/blog">Blog</NuxtLink>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/#contact">Contact us</a>
+                <a
+                  class="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#contactModal"
+                  href="javascript:void(0)"
+                  >Contact us</a
+                >
               </li>
             </ul>
           </div>
@@ -57,7 +63,7 @@ const props = defineProps({
   },
 });
 onMounted(() => {
-  window.addEventListener("scroll", () => {
+  /* window.addEventListener("scroll", () => {
     if (window.scrollY >= 5) {
       active.value = "change-clr";
     } else {
@@ -68,9 +74,9 @@ onMounted(() => {
         active.value = "";
       }
     }
-  });
+  }); */
 });
-const addClass = () => {
+/* const addClass = () => {
   setTimeout(() => {
     let navId = document.getElementById("navbarNav");
     if (navId?.classList.contains("show")) {
@@ -79,5 +85,5 @@ const addClass = () => {
       active.value = "";
     }
   }, 370);
-};
+}; */
 </script>

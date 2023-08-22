@@ -1,15 +1,20 @@
 <script setup lang="ts">
+import ContactForm from "~/components/ContactForm.vue";
+import InvestorForm from "~/components/InvestorForm.vue";
 const route = useRoute();
 useSeoMeta({
-  title: "Home Page",
-  description: "[description]",
-  ogTitle: "[og:title]",
-  ogDescription: "[og:description]",
-  ogImage: "[og:image]",
-  ogUrl: "[og:url]",
-  twitterTitle: "[twitter:title]",
-  twitterDescription: "[twitter:description]",
-  twitterImage: "[twitter:image]",
+  title: "Giftbox | Home",
+  description:
+    "GiftBox is the largest free gifts platform that provides a decentralized system to manage digital giftings like gift card, rewards, gift vouchers, and discount vouchers.",
+  ogTitle: "Giftbox | Home",
+  ogDescription:
+    "GiftBox is the largest free gifts platform that provides a decentralized system to manage digital giftings like gift card, rewards, gift vouchers, and discount vouchers.",
+  ogImage: "/assets/images/hero_section_2.jpg",
+  ogUrl: "https://giftbox.network",
+  twitterTitle: "Giftbox | Home",
+  twitterDescription:
+    "GiftBox is the largest free gifts platform that provides a decentralized system to manage digital giftings like gift card, rewards, gift vouchers, and discount vouchers.",
+  twitterImage: "/assets/images/hero_section_2.jpg",
   twitterCard: "summary",
 });
 
@@ -29,22 +34,11 @@ useHead({
 
 <template>
   <div>
-    <div class="banner-main" data-aos="fade-up">
+    <div class="banner-main">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 d-lg-none text-center">
-            <figure>
-              <img
-                src="/assets/images/illustration.png"
-                class="img-fluid"
-                alt=""
-              />
-            </figure>
-          </div>
-
-          <div class="col-lg-6">
+          <div class="col-lg-6 banner-txt" data-aos="fade-right">
             <h1>
-              <span class="welcome">Welcome!</span>
               Your time!<br />
               Your money!<br />
               You earn GiftBox tokens!
@@ -54,28 +48,64 @@ useHead({
               a unified gift-giving experience for platform users.
             </p>
           </div>
+          <div
+            class="col-sm-12 col-lg-6 text-left"
+            data-aos="fade-left"
+            :data-aos-duration="2000"
+          >
+            <figure class="banner-sideimg">
+              <img
+                src="/assets/images/hero_section_2.jpg"
+                class="img-fluid"
+                alt="Giftbox"
+              />
+            </figure>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="marquee-section" data-aos="fade-up">
-      <marquee behavior="" direction="" scrollamount="12"
-        ><p>Mission: GiftBox token aims to be the future gifting currency!</p>
+    <div class="marquee-section">
+      <Vue3Marquee :gradient="false">
         <p>Mission: GiftBox token aims to be the future gifting currency!</p>
         <p>Mission: GiftBox token aims to be the future gifting currency!</p>
-      </marquee>
+        <p>Mission: GiftBox token aims to be the future gifting currency!</p>
+      </Vue3Marquee>
     </div>
 
     <div class="sec-block-chain" data-aos="fade-up">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6"></div>
-          <div class="col-12 d-lg-none">
-            <figure class="text-center">
-              <img src="/assets/images/giftsbox.png" class="img-fluid" alt="" />
+          <div class="col-lg-6 col-sm-12 col-12 img-box">
+            <figure class="text-left position-relative w-90">
+              <img
+                src="/assets/images/blockchain/g_top.png"
+                class="img-fluid position-absolute left-0 top-0 g_top"
+                alt="gift box"
+              />
+              <img
+                src="/assets/images/blockchain/gift_box.png"
+                class="img-fluid position-absolute left-0 top-0 gift_box"
+                alt="gift box"
+              />
+              <img
+                src="/assets/images/blockchain/2_large.png"
+                class="img-fluid position-absolute left-0 top-0 two_large"
+                alt="gift box"
+              />
+              <img
+                src="/assets/images/blockchain/3_small.png"
+                class="img-fluid position-absolute left-0 top-0 three_small"
+                alt="gift box"
+              />
+              <img
+                src="/assets/images/blockchain/g_bottom.png"
+                class="img-fluid position-absolute left-0 top-0 g_bottom"
+                alt="gift box"
+              />
             </figure>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-12 col-sm-12">
             <h2>
               <small>Sagoon – </small><br />
               The blockchain-powered social gifting platform:
@@ -96,10 +126,14 @@ useHead({
                 >
               </li>
             </ul>
-            <p>
-              <NuxtLink href="https://sagoon.com/" target="_blank" class="btn"
-                >Visit Sagoon website</NuxtLink
+            <p class="mt-5">
+              <NuxtLink
+                href="https://sagoon.com/"
+                target="_blank"
+                class="theme-btn"
               >
+                Visit Sagoon website
+              </NuxtLink>
             </p>
           </div>
         </div>
@@ -109,41 +143,52 @@ useHead({
     <div class="app-sagoon" data-aos="fade-up">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 justify-items-center">
             <h2>A memorable experience for an online celebration</h2>
             <p>
               Say goodbye to distance and celebrate your special moments live
               with instant gift-giving and earn tokens for doing.
             </p>
-            <p class="wht">For more, check the app.</p>
-            <NuxtLink href="https://bit.ly/3PJKCVM" target="_blank"
-              ><img src="/assets/images/get-it-on.png" alt="" class="img-fluid"
-            /></NuxtLink>
-          </div>
-          <div class="col-lg-2"></div>
-          <div class="col-lg-4">
-            <figure>
+            <p class="wht">For more info, check the Sagoon app.</p>
+            <NuxtLink href="https://bit.ly/3PJKCVM" target="_blank">
               <img
-                src="/assets/images/mobile-screen.png"
+                src="/assets/images/playstore.png"
                 alt=""
-                class="img-fluid"
+                class="img-fluid playstore"
+              />
+            </NuxtLink>
+          </div>
+          <div class="col-lg-6">
+            <figure class="w-100">
+              <img
+                src="/assets/images/smartphone-mockup-floating.png"
+                class="img-fluid shop"
+                alt="mobile"
               />
             </figure>
-            <figcaption class="text-center">Sagoon platform</figcaption>
           </div>
         </div>
       </div>
     </div>
+
     <div class="giftbox-tokens" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
-            <figure class="text-center">
-              <img
-                src="/assets/images/giftbox-token.png"
-                alt=""
-                class="img-fluid"
-              />
+            <figure class="text-center position-relative">
+              <img src="/assets/images/glogo.png" alt="" class="img-fluid" />
+              <span class="">
+                <img
+                  src="/assets/images/4_dot.png"
+                  alt=""
+                  class="img-fluid position-absolute start-0 top-0 dot4"
+                />
+                <img
+                  src="/assets/images/5_dot.png"
+                  alt=""
+                  class="img-fluid position-absolute start-0 top-0 dot5"
+                />
+              </span>
             </figure>
           </div>
 
@@ -195,7 +240,7 @@ useHead({
             <div class="col-lg-5 align-self-center">
               <figure class="text-center">
                 <img
-                  src="/assets/images/chart-graph.png"
+                  src="/assets/images/graph.png"
                   class="img-fluid"
                   alt="chart"
                 />
@@ -204,31 +249,15 @@ useHead({
           </div>
         </div>
       </div>
-      <div class="curve-shape mt-4">
-        <svg
-          x="0px"
-          y="0px"
-          viewBox="0 0 3841 120"
-          xml:space="preserve"
-          style="overflow: scroll"
-        >
-          <path
-            d="M3360.5,97.739c-242,0-480-48.375-480-48.375
-                    S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
-                    S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"
-            style="fill: #0d162a; stroke-miterlimit: 10"
-          ></path>
-        </svg>
-      </div>
     </div>
-    <div class="team-gift pt-4">
+
+    <div class="team-gift">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
             <h3>Team Behind</h3>
           </div>
         </div>
-
         <div class="row">
           <div class="col-sm-12" data-aos="fade-up">
             <div class="team-outer">
@@ -426,9 +455,9 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="/assets/images/team/niranjan.png"
-                        alt="Niranjan Bhambi"
-                        class="img-fluid"
+                        src="/assets/images/team/parag.jpg"
+                        alt="Parag Arora"
+                        class="img-fluid rounded-circle"
                       />
                     </figure>
                     <section>
@@ -457,9 +486,9 @@ useHead({
                   <div class="d-flex">
                     <figure>
                       <img
-                        src="/assets/images/team/omer.png"
-                        alt="Omer Bhat"
-                        class="img-fluid"
+                        src="/assets/images/team/jhakendra.jpeg"
+                        alt="Jhakendra Sharma"
+                        class="img-fluid rounded-circle"
                       />
                     </figure>
                     <section>
@@ -503,6 +532,43 @@ useHead({
         </div>
       </div>
     </div>
+    <div class="founder-form">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="start-invest">
+              <div class="inner-glow">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h3>Introducing the GiftBox Founders Club!</h3>
+                    <p>
+                      This club empowers early backers of the GiftBox token
+                      ecosystem.
+                    </p>
+                    <ul>
+                      <li>Exclusive membership through invitation.</li>
+                      <li>
+                        Gain voting rights in the DAO to shape the GiftBox's
+                        future.
+                      </li>
+                      <li>
+                        Engage in collaboration, innovation, and community
+                        connections.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <h5 class="mb-4">Interested in becoming a member?</h5>
+                    <InvestorForm />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="join-community">
       <div class="container">
         <div class="row">
@@ -536,13 +602,13 @@ useHead({
               </figure>
               <section>
                 <p>
-                  Stay informed on the Pre-sale by joining the official Discord
-                  server.
+                  "Stay updated on announcements, news, and updates—join our
+                  official Discord channel."
                 </p>
                 <NuxtLink
                   href="https://discord.gg/FkQDANrF29"
                   target="_blank"
-                  class="btn-join"
+                  class="theme-btn"
                 >
                   <span>Join Discord</span>
                 </NuxtLink>
@@ -555,12 +621,12 @@ useHead({
               </figure>
               <section>
                 <p>
-                  Stay informed on the announcements by joining the official
-                  Telegram server.
+                  "Stay updated on announcements, news, and updates—join our
+                  official Telegram channel."
                 </p>
                 <NuxtLink
                   href="https://t.me/GiftBoxToken"
-                  class="btn-join"
+                  class="theme-btn"
                   target="_blank"
                   ><span>Join Telegram</span></NuxtLink
                 >
@@ -570,71 +636,32 @@ useHead({
         </div>
       </div>
     </div>
-
-    <div class="container" data-aos="fade-up">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="start-invest">
-            <div class="inner-glow">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h3>Introducing the GiftBox Founders Club!</h3>
-                  <p>
-                    This club empowers early backers of the GiftBox token
-                    ecosystem.
-                  </p>
-                  <ul>
-                    <li>Exclusive membership through invitation.</li>
-                    <li>
-                      Gain voting rights in the DAO to shape the GiftBox's
-                      future.
-                    </li>
-                    <li>
-                      Engage in collaboration, innovation, and community
-                      connections.
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-6">
-                  <div>
-                    <input
-                      type="text"
-                      name="Name"
-                      id="Name"
-                      placeholder="Name"
-                      class="form-control"
-                    />
+    <!-- <div class="contact-form-div">
+      <div class="container" id="contact" data-aos="fade-up">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="start-invest">
+              <div class="inner-glow">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h3 class="text-start">We’d love to hear from you!</h3>
+                    <p>
+                      Contact our customer support team for all inquiries,
+                      including product feedback, partnerships etc.
+                    </p>
+                    <p>
+                      Email:
+                      <a
+                        href="mailto:connect@giftbox.network"
+                        target="_blank"
+                        class="text-white"
+                      >
+                        connect@giftbox.network
+                      </a>
+                    </p>
                   </div>
-                  <div>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                      class="form-control"
-                    />
-                  </div>
-
-                  <div>
-                    <input
-                      type="tel"
-                      name="number"
-                      id="number"
-                      placeholder="Phone Number"
-                      class="form-control"
-                    />
-                  </div>
-
-                  <div class="col-12">
-                    <p class="space-top">Interested in becoming a member?</p>
-                    <input
-                      id="submitButton"
-                      type="submit"
-                      name="Submit"
-                      class="btn-sbmt"
-                      value="Send request"
-                    />
+                  <div class="col-lg-6">
+                    <ContactForm />
                   </div>
                 </div>
               </div>
@@ -642,126 +669,63 @@ useHead({
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container" id="contact">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="form-container">
-            <form name="contactForm" id="contactForm">
-              <div class="form-about">
-                <h3>Get In Touch</h3>
+    </div> -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="start-invest m-0">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="32px"
+                  viewBox="0 0 24 24"
+                  width="32px"
+                  fill="#FFFFFF"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+                  />
+                </svg>
+              </button>
+              <div class="inner-glow">
                 <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                    <div class="form-cont">
-                      <input
-                        type="text"
-                        name="firstName"
-                        id="firstName"
-                        placeholder="First Name"
-                        class="form-control"
-                        fdprocessedid="s9yy4"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="form-cont">
-                      <input
-                        type="text"
-                        name="lastName"
-                        id="lastName"
-                        placeholder="Last Name"
-                        class="form-control"
-                        fdprocessedid="jzq03s"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="form-cont">
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                        class="form-control"
-                        fdprocessedid="e7pxkd"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="form-cont">
-                      <input
-                        type="tel"
-                        name="phoneNumber"
-                        id="phoneNumber"
-                        placeholder="+44-1234567890"
-                        class="form-control"
-                        fdprocessedid="5ero6"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12">
-                    <div class="form-cont">
-                      <textarea
-                        cols="0"
-                        rows="2"
-                        name="messagetext"
-                        id="messagetext"
-                        class="form-control"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
+                  <div class="col-lg-6">
+                    <h3 class="text-start">We’d love to hear from you!</h3>
+                    <p>
+                      Contact our customer support team for all inquiries,
+                      including product feedback, partnerships etc.
+                    </p>
+                    <p>
+                      Email:
+                      <a
+                        href="mailto:connect@giftbox.network"
+                        target="_blank"
+                        class="text-white"
+                      >
+                        connect@giftbox.network
+                      </a>
+                    </p>
                   </div>
 
-                  <div class="col-sm-12">
-                    <div class="row">
-                      <div class="col-lg-5">
-                        <div class="form-cont">
-                          <div id="captchaBackground">
-                            <canvas id="captcha">captcha text</canvas>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-5">
-                        <div class="form-cont">
-                          <input
-                            class="form-control"
-                            id="textBox"
-                            placeholder="Enter Captcha"
-                            type="text"
-                            name="text"
-                          />
-                        </div>
-                        <span id="output" class="captchaError"></span>
-                      </div>
-
-                      <div class="col-lg-1 text-center">
-                        <div id="buttons">
-                          <button id="refreshButton" type="submit" class="">
-                            <img
-                              style="color: white"
-                              src="/assets/images/refresh.png"
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <input
-                      id="submitButton"
-                      type="submit"
-                      name="Submit"
-                      class="btn-sbmt"
-                      value="Submit"
-                      fdprocessedid="f5mcxt"
-                    />
+                  <div class="col-lg-6">
+                    <ContactForm />
                   </div>
                 </div>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>

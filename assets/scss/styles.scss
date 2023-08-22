@@ -1,5 +1,22 @@
 @import "~~/node_modules/bootstrap/scss/bootstrap.scss";
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101b34;
+  -webkit-box-shadow: inset 0 0 20px 1px #000;
+  box-shadow: inset 0 0 20px 1px #000;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #162548;
+}
 
 .curve-shape {
   margin-bottom: -12px;
@@ -9,6 +26,20 @@
   animation: move-left 6s linear infinite;
   position: relative;
   width: 200%;
+}
+.dot4 {
+  animation: fade-in-out 1s infinite;
+  -webkit-animation: fade-in-out 1s infinite;
+}
+.dot5 {
+  animation: fade-in-out 2s infinite;
+  -webkit-animation: fade-in-out 2s infinite;
+}
+.rotate-x-axis {
+  position: relative;
+  transform-style: preserve-3d; /* Ensures proper perspective */
+  transform: perspective(1000px) rotateX(45deg);
+  margin-top: 50vh; /* Adjust this to half of the image's height */
 }
 @keyframes move-left {
   0% {
@@ -95,14 +126,13 @@ h3 {
         color: #fff;
         padding: 14px 24px;
         margin-left: 12px;
-        border: 2px solid transparent;
-        border-radius: 8px;
+        border-bottom: 2px solid transparent;
         &:hover {
-          border: 2px solid #213970;
+          border-bottom: 2px solid #213970;
         }
         &.router-link-exact-active,
         &.router-link-active {
-          border: 2px solid #213970;
+          border-bottom: 2px solid #213970;
           &.navbar-brand {
             border: 0px;
           }
@@ -116,31 +146,44 @@ h3 {
 }
 /**********banner section***********/
 .banner-main {
-  min-height: 100vh;
+  min-height: calc(100vh - 240px);
   display: flex;
   align-items: center;
-  background: url("/assets/images/hero_bg.png") right 21vh no-repeat;
-  background-size: 48vw auto;
+  /*  background: url("/assets/images/hero_section.jpg") right top no-repeat; */
+  background-size: auto 112vh;
   position: relative;
   z-index: 1;
-  h1 {
-    line-height: 60px;
-    font-weight: 400;
-    font-size: 46px;
-    background: url("/assets/images/hdn-bg-one.png") 100% bottom no-repeat;
-    display: inline-block;
-    padding-right: 36px;
+  .banner-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      line-height: 67px;
+      font-weight: 400;
+      font-size: 46px;
+      background: url("/assets/images/hdn-bg-one.png") 100% bottom no-repeat;
+      display: inline-block;
+      padding-right: 36px;
 
-    margin-bottom: 36px;
-    background-size: 47% auto;
-    span {
-      font-size: 18px;
-      display: block;
+      margin-bottom: 36px;
+      background-size: 44% auto;
+      background-position-x: 194px;
+      background-position-y: 137px;
+      span {
+        font-size: 18px;
+        display: block;
+      }
+    }
+    p {
+      color: #8ca3db;
+      width: 90%;
     }
   }
-  p {
-    color: #8ca3db;
-    width: 90%;
+
+  .banner-sideimg {
+    img {
+      max-height: 61vh;
+    }
   }
 }
 .marquee-section {
@@ -148,18 +191,40 @@ h3 {
   padding: 80px 0;
   background-size: 100% 100%;
 
-  margin-top: -32px;
+  margin-top: -20px;
   p {
     margin: 0 120px;
     display: inline-block;
+    font-weight: 200;
     font-size: 28px;
   }
 }
 
 .sec-block-chain {
-  padding: 180px 0;
-  background: url("/assets/images/gifts.png") left -20vh no-repeat;
-  background-size: 50vw auto;
+  padding: 200px 0 180px 0;
+  background: url("/assets/images/blockchain/bg.png") center left no-repeat;
+  background-size: 80vw auto;
+  background-position-x: -20vw;
+  margin-top: -29px;
+  figure {
+    max-width: 90%;
+    .two_large {
+      animation: fade-in-out 4s infinite;
+      -webkit-animation: fade-in-out 4s infinite;
+    }
+    .three_small {
+      animation: fade-in-out 3s infinite;
+      -webkit-animation: fade-in-out 3s infinite;
+    }
+    .g_top {
+      -webkit-animation: alltuchtopdown 4s infinite;
+      animation: alltuchtopdown 4s infinite;
+    }
+    .g_bottom {
+      -webkit-animation: alltuchtopdown 4s infinite;
+      animation: alltuchtopdown 4s infinite;
+    }
+  }
   h2 {
     margin-bottom: 48px;
     small {
@@ -176,11 +241,16 @@ h3 {
     }
   }
   .btn {
-    border: 2px solid #213970;
     padding: 15px 36px;
     color: #fff;
     margin-top: 32px;
-    border-radius: 8px;
+    border-radius: 28px;
+    background: linear-gradient(
+      90deg,
+      rgb(75, 129, 255) 0%,
+      rgb(13, 255, 218) 100%
+    );
+    color: #000;
   }
   ul {
     li {
@@ -200,6 +270,9 @@ h3 {
   background: url("/assets/images/bg-sagoonapp.png") right 24% no-repeat;
   background-size: 42vw auto;
   padding: 200px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
+  height: calc(95vh);
   h2 {
     font-size: 46px;
     margin-bottom: 48px;
@@ -210,6 +283,7 @@ h3 {
     &.wht {
       color: #fff;
       margin-bottom: 8px;
+      font-size: 14px;
       margin-top: 72px;
     }
   }
@@ -232,10 +306,17 @@ h3 {
       }
     }
   }
+  .shop {
+    animation: alltuchtopdown 6s infinite;
+    -webkit-animation: alltuchtopdown 6s infinite;
+  }
+  .playstore {
+    width: 160px;
+  }
 }
 
 .giftbox-tokens {
-  padding: 72px 0;
+  padding: 120px 0;
   color: #8ca3db;
   figure {
     margin-top: -120px;
@@ -270,7 +351,7 @@ h3 {
 .tokenomics {
   color: #fff;
   .tokenomics-inner {
-    padding: 72px 0 200px;
+    padding: 142px 0 200px;
     background: url("/assets/images/bg-tokenomics.png") right 46% no-repeat;
     background-size: 57vw auto;
     p {
@@ -292,7 +373,7 @@ h3 {
 }
 
 .team-gift {
-  padding: 0px 0 0px;
+  padding: 70px 0 40px;
   color: #fff;
   margin-top: 0px;
   background: rgba(0, 0, 0, 0.2);
@@ -310,12 +391,11 @@ h3 {
 .sec-team {
   border-radius: 20px;
   margin-bottom: 40px;
-
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(75, 129, 255, 1) 0%,
     rgba(13, 255, 218, 1) 100%
-  );
+  ); */
   padding: 2px;
   .sec-team-inner {
     border-radius: 20px;
@@ -370,7 +450,9 @@ h3 {
 }
 
 .join-community {
-  margin: 120px 0 0;
+  padding: 120px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
   h2 {
     margin-bottom: 132px;
     text-align: center;
@@ -386,7 +468,6 @@ h3 {
       line-height: 180px;
       text-align: center;
       margin-right: 36px;
-      border: 1px solid #000;
     }
     section {
       align-self: center;
@@ -418,14 +499,15 @@ h3 {
     }
   }
 }
-
+.founder-form {
+  padding: 20px 0 120px 0;
+}
 .start-invest {
-  background: #4b81ff;
+  background: #162548;
   border-radius: 20px;
   margin: 136px 0 0;
   .inner-glow {
-    background: url("/assets/images/inner-glow.png") left top no-repeat;
-    padding: 80px 100px;
+    padding: 60px 80px;
     border-radius: 20px;
   }
   h3 {
@@ -435,7 +517,8 @@ h3 {
   }
   input[type="text"],
   input[type="email"],
-  input[type="tel"] {
+  input[type="tel"],
+  textarea.form-control {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.5);
 
@@ -455,18 +538,11 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
   }
   p {
+    color: #8ca3db;
     &.space-top {
       margin-top: 48px;
       margin-bottom: 0px;
     }
-  }
-  input[type="submit"] {
-    background: #fff;
-    border: 0px;
-    padding: 10px 24px;
-    min-width: 196px;
-    border-radius: 8px;
-    margin-top: 4px;
   }
   ul {
     li {
@@ -483,22 +559,36 @@ h3 {
     }
   }
 }
-
+.contact-form-div {
+  padding: 20px 0 120px;
+}
 .bot-sec-giftbox {
-  padding: 120px 0 60px;
+  padding: 120px 0 30px;
   color: #fff;
   text-align: center;
-}
-.play-link {
-  margin: 20px 0 0;
-}
-.copy-right {
-  display: block;
-  margin: 133px 0 0;
-  color: rgba(255, 255, 255, 0.6);
-  a {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+  .copyright-div {
+    padding-top: 30px;
+    margin-top: 120px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    .position-relative {
+      height: 55px;
+    }
+    .copy-right {
+      display: block;
+      margin: 0 0;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 13px;
+      position: relative;
+      top: 20px;
+      a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+      }
+    }
+  }
+  .play-link {
+    margin: 20px 0 0;
+    font-size: 14px;
   }
 }
 
@@ -547,7 +637,7 @@ h3 {
   padding: 8px 60px;
   color: #000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   border: 0;
 }
@@ -707,6 +797,197 @@ h3 {
   }
 }
 
+@keyframes alltuchtopdown {
+  0% {
+    transform: rotateX(0deg) translateY(0px);
+  }
+  50% {
+    transform: rotateX(0deg) translateY(-30px);
+  }
+  100% {
+    transform: rotateX(0deg) translateY(0px);
+  }
+}
+@keyframes leftToRight {
+  0% {
+    transform: rotateX(0deg) translateX(0px);
+  }
+  50% {
+    transform: rotateX(0deg) translateX(50px);
+  }
+  100% {
+    transform: rotateX(0deg) translateX(0px);
+  }
+}
+
+@keyframes animate-1 {
+  0%,
+  100% {
+    transform: translateY(0vh) translateX(0vmin);
+  }
+  50% {
+    transform: translateY(-1.5vh) translateX(5vmin);
+  }
+}
+
+@keyframes animate-2 {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15vmin);
+  }
+}
+@keyframes animate-3 {
+  0%,
+  100% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(-5vmin);
+  }
+}
+
+@keyframes animate-4 {
+  0%,
+  100% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(10vmin);
+  }
+}
+
+@keyframes animate-5 {
+  0%,
+  100% {
+    transform: translateY(0vh) translateX(0vmin);
+  }
+  50% {
+    transform: translateY(-1.5vh) translateX(5vmin);
+  }
+}
+
+@keyframes pulse-anim {
+  0% {
+    box-shadow: #dec7ff 0 0 0 0;
+  }
+  100% {
+    box-shadow: #1f223e 0 0 0 8px;
+  }
+}
+
+@keyframes pulse-anim2 {
+  0% {
+    box-shadow: rgba(255, 255, 255, 0.4) 0 0 0 0;
+  }
+  100% {
+    box-shadow: rgba(255, 255, 255, 0.1) 0 0 0 10px;
+  }
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+
+.theme-btn {
+  text-decoration: none;
+  padding: 15px 36px;
+  margin-top: 25px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    270deg,
+    rgb(75, 129, 255) 0%,
+    rgb(13, 255, 218) 150%
+  );
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.theme-btn:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.theme-btn:focus {
+  outline: none;
+}
+.modal-content {
+  border-radius: 24px;
+}
+.modal-body .start-invest .btn-close {
+  color: #fff;
+  background: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+  float: right;
+  position: relative;
+  right: 25px;
+  top: 12px;
+}
+.invalid-feedback {
+  position: relative;
+  top: -10px;
+}
+.justify-items-center {
+  justify-items: center;
+}
+
+@media (min-width: 4000px) {
+  .sec-block-chain {
+    background-size: 50vw auto;
+  }
+  .app-sagoon {
+    background: none;
+  }
+  .tokenomics .tokenomics-inner {
+    background: none;
+  }
+}
+@media (min-width: 2800px) {
+  .sec-block-chain {
+    padding: 180px 0;
+
+    background-size: 50vw auto;
+  }
+  .app-sagoon {
+    background: url(/assets/images/bg-sagoonapp.png) right 100% no-repeat;
+    background-size: 47vw auto;
+  }
+  .tokenomics .tokenomics-inner {
+    padding: 72px 0 200px;
+    background: url(/assets/images/bg-tokenomics.png) right 45% no-repeat;
+    background-size: 100% 180%;
+  }
+}
+
 @media (max-width: 1400px) {
   .banner-main h1 {
     line-height: 50px;
@@ -719,17 +1000,11 @@ h3 {
     font-size: 40px;
   }
   .banner-main {
-    background: url(/_nuxt/assets/images/hero_bg.png) right 26vh no-repeat;
     background-size: 56vw auto;
-  }
-  .banner-main h1,
-  .banner-main .h1 {
-    background: url(/_nuxt/assets/images/hdn-bg-one.png) left bottom no-repeat;
   }
 
   .sec-block-chain {
     padding: 96px 0 0;
-    background: url("/assets/images/gifts.png") left 5vh no-repeat;
     background-size: 50vw auto;
     h2 {
       margin-bottom: 28px;
@@ -753,7 +1028,7 @@ h3 {
     background-size: 133px 48px;
   }
   .join-community {
-    margin: 60px 0 0;
+    margin: 60px 0;
     h2 {
       margin-bottom: 56px;
     }
@@ -905,6 +1180,7 @@ h3 {
   }
   .giftbox-tokens {
     padding: 8px 0 0;
+    margin-top: 100px;
     figure {
       margin-top: -40px;
     }
@@ -944,8 +1220,25 @@ h3 {
   .list-blog li strong {
     font-size: 20px;
   }
+  .img-box {
+    height: 360px;
+  }
 }
 @media (max-width: 575px) {
+  .banner-main {
+    margin: 0;
+    .banner-txt {
+      h1 {
+        line-height: 67px;
+        font-size: 46px;
+      }
+    }
+  }
+  .marquee-section {
+    padding: 40px 0;
+    background-size: 100% 100%;
+    margin-top: -20px;
+  }
   .sec-team {
     margin-bottom: 24px;
     display: block;
@@ -961,34 +1254,5 @@ h3 {
   }
   .join-community .sec-join figure {
     min-width: 100%;
-  }
-}
-@media (min-width: 2800px) {
-  .sec-block-chain {
-    padding: 180px 0;
-    background: url(/assets/images/gifts.png) left -32vh no-repeat;
-    background-size: 50vw auto;
-  }
-  .app-sagoon {
-    background: url(/assets/images/bg-sagoonapp.png) right 100% no-repeat;
-    background-size: 47vw auto;
-  }
-  .tokenomics .tokenomics-inner {
-    padding: 72px 0 200px;
-    background: url(/assets/images/bg-tokenomics.png) right 45% no-repeat;
-    background-size: 100% 180%;
-  }
-}
-
-@media (min-width: 4000px) {
-  .sec-block-chain {
-    background: url(/assets/images/gifts.png) 10vw -32vh no-repeat;
-    background-size: 50vw auto;
-  }
-  .app-sagoon {
-    background: none;
-  }
-  .tokenomics .tokenomics-inner {
-    background: none;
   }
 }
