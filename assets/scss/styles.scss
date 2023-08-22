@@ -1225,34 +1225,132 @@ h3 {
   }
 }
 @media (max-width: 575px) {
+  .col-12 {
+    padding: 0 16px;
+  }
   .banner-main {
     margin: 0;
     .banner-txt {
       h1 {
-        line-height: 67px;
-        font-size: 46px;
+        line-height: 60px;
+        font-size: 40px;
       }
     }
   }
   .marquee-section {
-    padding: 40px 0;
+    padding: 30px 0;
     background-size: 100% 100%;
     margin-top: -20px;
+    p {
+      font-size: 20px;
+    }
+  }
+  .sec-block-chain {
+    padding-top: 80px;
+    .img-box {
+      figure {
+        max-width: 85%;
+        height: 320px;
+        margin: auto;
+      }
+    }
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .app-sagoon {
+    h2 {
+      font-size: 35px;
+    }
+    .playstore {
+      margin-bottom: 20px;
+    }
+    p.wht {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .playstorep {
+      text-align: center;
+    }
+    a {
+      text-align: center;
+      display: inline-block;
+      .playstore {
+        margin: auto auto 20px auto;
+      }
+    }
+  }
+  .giftbox-tokens {
+    padding-top: 80px;
+    figure {
+      max-width: 90%;
+      margin: 0 5%;
+    }
+  }
+  .tokenomics {
+    .tokenomics-inner {
+      figure {
+        max-width: 86%;
+        margin: 0 7%;
+      }
+    }
   }
   .sec-team {
     margin-bottom: 24px;
     display: block;
     .sec-team-inner {
-      .d-flex {
-        display: block !important;
+      h4 {
+        font-size: 20px;
+      }
+      span {
+        font-size: 17px;
+      }
+      p {
+        font-size: 16px;
       }
     }
   }
-  .join-community .sec-join {
-    display: block;
-    margin-bottom: 32px;
+  .founder-form {
+    padding-bottom: 16px;
   }
-  .join-community .sec-join figure {
-    min-width: 100%;
+  .join-community {
+    margin-top: 5px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .lottie-animation-container {
+      margin-bottom: 30px;
+    }
+    .sec-join {
+      display: block;
+      margin-bottom: 50px;
+      figure {
+        width: 50%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .bot-sec-giftbox {
+    padding: 40px 0 30px;
+    .copyright-div {
+      margin-top: 60px;
+      .text-start {
+        .position-absolute {
+          left: 0;
+          right: 0;
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .text-end {
+        text-align: center !important;
+        margin: auto;
+      }
+    }
   }
 }

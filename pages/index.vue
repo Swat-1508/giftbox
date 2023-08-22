@@ -150,13 +150,15 @@ useHead({
               with instant gift-giving and earn tokens for doing.
             </p>
             <p class="wht">For more info, check the Sagoon app.</p>
-            <NuxtLink href="https://bit.ly/3PJKCVM" target="_blank">
-              <img
-                src="/assets/images/playstore.png"
-                alt=""
-                class="img-fluid playstore"
-              />
-            </NuxtLink>
+            <p class="playstorep">
+              <NuxtLink href="https://bit.ly/3PJKCVM" target="_blank">
+                <img
+                  src="/assets/images/playstore.png"
+                  alt=""
+                  class="img-fluid playstore"
+                />
+              </NuxtLink>
+            </p>
           </div>
           <div class="col-lg-6">
             <figure class="w-100">
@@ -577,14 +579,7 @@ useHead({
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-5" data-aos="fade-up">
-            <!-- <figure>
-              <img
-                src="/assets/images/community.png"
-                class="img-fluid"
-                alt=""
-              />
-            </figure> -->
+          <div class="col-lg-6 col-12" data-aos="fade-up">
             <ClientOnly>
               <Vue3Lottie
                 animationLink="/assets/community.json"
@@ -594,8 +589,7 @@ useHead({
               />
             </ClientOnly>
           </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-6" data-aos="fade-up">
+          <div class="col-lg-6 col-12" data-aos="fade-up">
             <div class="sec-join">
               <figure>
                 <img src="/assets/images/discord.png" alt="" />
@@ -636,40 +630,6 @@ useHead({
         </div>
       </div>
     </div>
-    <!-- <div class="contact-form-div">
-      <div class="container" id="contact" data-aos="fade-up">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="start-invest">
-              <div class="inner-glow">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h3 class="text-start">We’d love to hear from you!</h3>
-                    <p>
-                      Contact our customer support team for all inquiries,
-                      including product feedback, partnerships etc.
-                    </p>
-                    <p>
-                      Email:
-                      <a
-                        href="mailto:connect@giftbox.network"
-                        target="_blank"
-                        class="text-white"
-                      >
-                        connect@giftbox.network
-                      </a>
-                    </p>
-                  </div>
-                  <div class="col-lg-6">
-                    <ContactForm />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div
       class="modal fade"
       id="contactModal"
