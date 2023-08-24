@@ -144,6 +144,23 @@ h3 {
     }
   }
 }
+.navbar-toggler {
+  border: none;
+  box-shadow: none !important;
+  outline: none !important;
+  background: rgba(255, 255, 255, 0.95);
+  transition: all 300ms ease-in-out;
+  padding: 4px 8px;
+  svg {
+    fill: #000;
+  }
+  &.collapsed {
+    background: transparent;
+    svg {
+      fill: #ffffff;
+    }
+  }
+}
 /**********banner section***********/
 .banner-main {
   min-height: calc(100vh - 240px);
@@ -1057,7 +1074,8 @@ h3 {
     }
     input[type="text"],
     input[type="email"],
-    input[type="number"] {
+    input[type="number"],
+    textarea.form-control {
       background: transparent;
       border: 1px solid rgba(255, 255, 255, 0.5);
       margin-bottom: 12px;
@@ -1375,6 +1393,28 @@ h3 {
       .text-end {
         text-align: center !important;
         margin: auto;
+      }
+    }
+  }
+  .main-page-blog {
+    padding-top: 0;
+  }
+  #contactModal {
+    .modal-body {
+      .start-invest {
+        h3 {
+          font-size: 24px;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 15px;
+        }
+        .mb-4 {
+          margin-bottom: 1rem !important;
+        }
+        .theme-btn {
+          padding: 12px 36px;
+        }
       }
     }
   }

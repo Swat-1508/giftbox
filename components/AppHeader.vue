@@ -18,7 +18,7 @@
             <img src="/assets/images/logo-gift.svg" alt="giftbox" />
           </NuxtLink>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -26,7 +26,17 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              viewBox="0 -960 960 960"
+              width="32"
+              fill="#ffffff"
+            >
+              <path
+                d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+              />
+            </svg>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"

@@ -18,17 +18,32 @@
       <div class="col-sm-12 mb-4">
         <input
           type="text"
-          name="phone_email"
-          id="phone_email"
+          name="email"
+          id="email"
           minlength="6"
-          placeholder="Mobile/Email*"
+          placeholder="Email*"
           autocomplete="off"
           class="form-control"
-          v-model="cform.phone_email"
+          v-model="cform.email"
+        />
+        <div class="invalid-feedback d-block" v-if="cform_error.email">
+          {{ cform_error.email }}
+        </div>
+      </div>
+      <div class="col-sm-12 mb-4">
+        <input
+          type="text"
+          name="phone"
+          id="phone"
+          minlength="6"
+          placeholder="Phone"
+          autocomplete="off"
+          class="form-control"
+          v-model="cform.phone"
           fdprocessedid="llzh0i"
         />
-        <div class="invalid-feedback d-block" v-if="cform_error.phone_email">
-          {{ cform_error.phone_email }}
+        <div class="invalid-feedback d-block" v-if="cform_error.phone">
+          {{ cform_error.phone }}
         </div>
       </div>
       <div class="col-sm-12 mb-3">
@@ -54,16 +69,23 @@
 <script setup lang="ts">
 import { useToast } from "vue-toastification";
 
-import { nameValidator, emptyValidator, textareaValidator } from "~/validator";
+import {
+  nameValidator,
+  emailValidator,
+  phoneValidator,
+  textareaValidator,
+} from "~/validator";
 const cform = ref({
   name: "",
-  phone_email: "",
+  phone: "",
+  email: "",
   message: "",
 });
 const processing = ref(false);
 const cform_error = reactive({
   name: "",
-  phone_email: "",
+  phone: "",
+  email: "",
   message: "",
 });
 const checkSubmission = async () => {
@@ -92,7 +114,8 @@ const resetForm = () => {
   setTimeout(() => {
     cform.value = {
       name: "",
-      phone_email: "",
+      phone: "",
+      email: "",
       message: "",
     };
     processing.value = false;
@@ -104,9 +127,13 @@ const validateForm = () => {
     (nameValidator(cform.value.name)?.error
       ? nameValidator(cform.value.name)?.msg
       : "") ?? "";
-  cform_error.phone_email =
-    (emptyValidator(cform.value.phone_email)?.error
-      ? emptyValidator(cform.value.phone_email)?.msg
+  cform_error.email =
+    (emailValidator(cform.value.email)?.error
+      ? emailValidator(cform.value.email)?.msg
+      : "") ?? "";
+  cform_error.phone =
+    (phoneValidator(cform.value.phone)?.error
+      ? phoneValidator(cform.value.phone)?.msg
       : "") ?? "";
   cform_error.message =
     (textareaValidator(cform.value.message, 5)?.error
