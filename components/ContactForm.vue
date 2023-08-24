@@ -100,7 +100,7 @@ const checkSubmission = async () => {
       {
         headers: { "Content-Type": "application/json" },
         method: "post",
-        body: { ...data, source: "Giftbox website" },
+        body: { ...data },
       }
     );
     resetForm();
