@@ -33,4 +33,5 @@ export default defineNuxtConfig({
     // vue-toastification - old commonjs module
     transpile: ["vue-toastification"],
   },
+  spaLoadingTemplate: "spa-loading-template.html",
 });
