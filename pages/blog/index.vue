@@ -30,7 +30,147 @@ useHead({
 <template>
   <div class="blog-sec main-page-blog">
     <div class="container">
+      <!-- <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/gift-29thaug-thumb.jpg"
+              class="img-fluid"
+              alt="Corporate Gifting"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">29/08/2023</span>
+          <section>
+            <h3 class="no-spc">
+              How Utility Tokens Revolutionized the Gift-Giving?
+            </h3>
+            <p>
+              Blockchain in the form of Cryptocurrencies are revolutionizing
+              industries in unprecedented ways....
+              <a href="/blog/how-utility-tokens-revolutionized-the-gift-giving"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div> -->
+
       <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/how-crypto-thumb.jpg"
+              class="img-fluid"
+              alt="Corporate Gifting"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">27/07/2023</span>
+          <section>
+            <h3 class="no-spc">
+              What is a Crypto Wallet, Why is it Important, and How Does it
+              Work?
+            </h3>
+            <p>
+              Hackers and cyber attackers are evolving with digital innovation
+              in this crypto age. They have become more aware and advanced in
+              hacking.....
+              <a href="/blog/secure-your-cryptocurrency-with-crypto-wallets"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/invest-crypto-thumb.jpg"
+              class="img-fluid"
+              alt="Corporate Gifting"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">25/07/2023</span>
+          <section>
+            <h3 class="no-spc">
+              What are the Different Ways to Invest in Cryptocurrency?
+            </h3>
+            <p>
+              Gone are the days of traditional stock markets and mundane
+              investment options. In the crypto space.....
+              <a
+                href="/blog/what-are-the-different-ways-to-invest-in-cryptocurrency"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/different-way-invest.jpg"
+              class="img-fluid"
+              alt="Corporate Gifting"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">20/07/2023</span>
+          <section>
+            <h3 class="no-spc">
+              Why Cryptocurrency is the New Frontier for Investors?
+            </h3>
+            <p>
+              In an era where conventional investment channels appear congested
+              and saturated, a new realm of....
+              <a
+                href="/blog/why-cryptocurrency-is-the-new-frontier-for-investors"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/cryptocurrency-thumb.jpg"
+              class="img-fluid"
+              alt="Corporate Gifting"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">18/07/2023</span>
+          <section>
+            <h3 class="no-spc">Cryptocurrency: Future of Finance</h3>
+            <p>
+              Cryptocurrency is a topic that has been gaining traction in recent
+              years. However, for many of us, it can be....
+              <a href="/blog/cryptocurrency-future-of-finance">Read more</a>
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- <div class="row sec-blog">
         <div class="col-sm-3">
           <figure>
             <img
@@ -56,9 +196,9 @@ useHead({
             </p>
           </section>
         </div>
-      </div>
+      </div> -->
 
-      <div class="row sec-blog">
+      <!-- <div class="row sec-blog">
         <div class="col-sm-3">
           <figure>
             <img
@@ -136,7 +276,7 @@ useHead({
             </p>
           </section>
         </div>
-      </div>
+      </div> 
 
       <div class="row sec-blog">
         <div class="col-sm-3">
@@ -164,7 +304,7 @@ useHead({
             </p>
           </section>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
