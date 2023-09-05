@@ -71,9 +71,7 @@ useHead({
                   class="img-fluid"
                 />
               </figure>
-              <figcaption class="text-center">
-                Image Source — Statista
-              </figcaption>
+              <span class="text-center"> Image Source — Statista </span>
               <h2>Introduction</h2>
 
               <p>
@@ -179,7 +177,7 @@ useHead({
                 opportunities for individuals to shape their investment journey
                 on their terms.
               </p>
-              <h3>Conclusion</h3>
+              <h4>Conclusion</h4>
 
               <p>
                 This digital revolution has opened up a world of possibilities

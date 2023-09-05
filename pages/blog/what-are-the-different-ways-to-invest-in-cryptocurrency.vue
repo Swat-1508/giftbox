@@ -34,9 +34,7 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">July 25, 2023</span>
             <section>
-              <h1 class="no-spc">
-                What are the Different Ways to Invest in Cryptocurrency?
-              </h1>
+              <h1>What are the Different Ways to Invest in Cryptocurrency?</h1>
               <figure>
                 <img
                   src="/assets/images/invest-in-crypto.webp"
@@ -262,7 +260,7 @@ useHead({
                 wallets, or cold storage options based on your preferences and
                 the level of security you require.
               </p>
-              <h3>Wrap up</h3>
+              <h4>Wrap up</h4>
               <p>
                 This digital revolution has opened up a world of possibilities
                 for investors. The decentralized nature, potential for high

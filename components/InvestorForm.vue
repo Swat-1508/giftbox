@@ -5,9 +5,8 @@
         <input
           type="text"
           class="form-control"
-          id="Name"
+          id="NameSecond"
           autocomplete="off"
-          aria-describedby="nameHelp"
           v-model="cform.name"
           placeholder="Your name*"
         />
@@ -19,7 +18,7 @@
         <input
           type="text"
           name="email"
-          id="email"
+          id="emailSecond"
           minlength="6"
           placeholder="Email*"
           autocomplete="off"
@@ -34,7 +33,7 @@
         <input
           type="text"
           name="phone"
-          id="phone"
+          id="phoneSecond"
           minlength="6"
           placeholder="Phone"
           autocomplete="off"

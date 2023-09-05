@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 useSeoMeta({
-  title: "Cryptocurrency: Future of Finance | by GiftBox Token",
+  title: "Cryptocurrency: Future of Finance",
   description: "[description]",
   ogTitle: "[og:title]",
   ogDescription: "[og:description]",
@@ -59,7 +59,7 @@ useHead({
               <p>
                 Before that, let’s first know where cryptocurrency comes from.
               </p>
-              <h3>Introduction to Web3</h3>
+              <h2>Introduction to Web3</h2>
               <p>
                 Web3 emerges as the solution to the centralization that
                 dominates significant portions of the World Wide Web,
@@ -213,7 +213,7 @@ useHead({
                   </p>
                 </div>
               </div>
-              <h3>What are the Different Types of Cryptocurrencies?</h3>
+              <h4>What are the Different Types of Cryptocurrencies?</h4>
               <p>
                 As of March 29, 2023, there are
                 <a
@@ -232,10 +232,10 @@ useHead({
                   class="img-fluid"
                 />
               </figure>
-              <figcaption class="text-center">
+              <span class="text-center">
                 Types of Active Cryptocurrencies-GiftBox
-              </figcaption>
-              <h3>How Cryptocurrency Works?</h3>
+              </span>
+              <h4>How Cryptocurrency Works?</h4>
               <p>
                 As discussed earlier, cryptocurrency works through a
                 decentralized blockchain. This system offers increased security,

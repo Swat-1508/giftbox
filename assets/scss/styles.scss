@@ -809,6 +809,10 @@ h3 {
   padding-bottom: 8px;
   padding-top: 32px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  h1,
+  h2 {
+    font-size: 32px;
+  }
 }
 
 .list-social {
@@ -1256,6 +1260,9 @@ h3 {
     font-size: 32px;
     margin-top: 24px;
     margin-bottom: 16px;
+  }
+  .blog-sec .numb {
+    font-size: 16px;
   }
   .blog-sec section h2 {
     font-size: 30px;
