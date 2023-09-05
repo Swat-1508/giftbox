@@ -11,7 +11,7 @@ pipelines:
             - npm install
             - npm run generate
           artifacts:
-            - .output/**
+            - .output/*
       - step:
           name: Deploy to AWS S3
           deployment: Production
