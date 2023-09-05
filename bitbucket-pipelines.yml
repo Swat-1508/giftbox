@@ -11,7 +11,7 @@ pipelines:
             - npm install
             - npm run generate
           artifacts:
-            - .output/*
+            - .output/**
       - step:
           name: Deploy to AWS S3
           deployment: Production
@@ -23,13 +23,13 @@ pipelines:
                 AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
                 S3_BUCKET: $S3_BUCKET
                 LOCAL_PATH: "public"
-                EXTRA_ARGS: "--exclude=.git/* --exclude=bitbucket-pipelines.yml"
-            - pipe: atlassian/aws-cloudfront-invalidate:0.7.0
-              variables:
-                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
-                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
-                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
-                DISTRIBUTION_ID: $DISTRIBUTION_ID
+                # EXTRA_ARGS: "--exclude=.git/* --exclude=bitbucket-pipelines.yml"
+            # - pipe: atlassian/aws-cloudfront-invalidate:0.7.0
+            #   variables:
+            #     AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+            #     AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+            #     AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+            #     DISTRIBUTION_ID: $DISTRIBUTION_ID
 definitions:
   caches:
     node: ~/.npm
