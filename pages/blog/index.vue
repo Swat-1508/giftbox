@@ -57,6 +57,35 @@ useHead({
           </section>
         </div>
       </div> -->
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/crypto-safeguard.jpg"
+              class="img-fluid"
+              alt="Different Types of Crypto Wallets to Safeguard Your Cryptocurrencies"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">29/07/2023</span>
+          <section>
+            <h3 class="no-spc">
+              Different Types of Crypto Wallets to Safeguard Your
+              Cryptocurrencies
+            </h3>
+            <p>
+              With the rising popularity of cryptocurrencies, cyber threats and
+              hacks have become more prevalent than ever.....
+              <a
+                href="/blog/different-types-of-crypto-wallets-to-safeguard-your-cryptocurrencies"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
 
       <div class="row sec-blog">
         <div class="col-sm-3">

@@ -1,8 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 useSeoMeta({
-  title:
-    "Why Cryptocurrency is the New Frontier for Investors? | by GiftBox Token",
+  title: "Why Cryptocurrency is the New Frontier for Investors?",
   description: "[description]",
   ogTitle: "[og:title]",
   ogDescription: "[og:description]",
@@ -35,9 +34,9 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">July 20, 2023</span>
             <section>
-              <h3 class="no-spc">
+              <h1 class="no-spc">
                 Why Cryptocurrency is the New Frontier for Investors?
-              </h3>
+              </h1>
               <figure>
                 <img
                   src="/assets/images/new-frontier.webp"
@@ -75,7 +74,7 @@ useHead({
               <figcaption class="text-center">
                 Image Source — Statista
               </figcaption>
-              <h3>Introduction</h3>
+              <h2>Introduction</h2>
 
               <p>
                 Welcome back to the second part of our blog series on

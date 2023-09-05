@@ -1,8 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 useSeoMeta({
-  title:
-    "What is a Crypto Wallet, Why is it Important, and How Does it Work? | by GiftBox Token",
+  title: "What is a Crypto Wallet, Why is it Important?",
   description: "[description]",
   ogTitle: "[og:title]",
   ogDescription: "[og:description]",
@@ -35,10 +34,10 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">July 27 2023</span>
             <section>
-              <h3 class="no-spc">
+              <h1 class="no-spc">
                 What is a Crypto Wallet, Why is it Important, and How Does it
                 Work?
-              </h3>
+              </h1>
               <figure>
                 <img
                   src="/assets/images/how-crypto-work.webp"
@@ -66,7 +65,7 @@ useHead({
                 >
               </p>
 
-              <h3>What is a Crypto Wallet?</h3>
+              <h2>What is a Crypto Wallet?</h2>
 
               <blockquote class="oy oz pa">
                 <p>
@@ -81,7 +80,7 @@ useHead({
                   >
                 </p>
               </blockquote>
-              <h4>Concept of Private and Public Key</h4>
+              <h3>Concept of Private and Public Key</h3>
               <p>
                 Cryptocurrency wallets use keys and long strings of random and
                 unpredictable characters.

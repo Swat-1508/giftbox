@@ -1,8 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 useSeoMeta({
-  title:
-    "How Utility Tokens Revolutionized the Gift-Giving? | by GiftBox Token",
+  title: "How Utility Tokens Revolutionized the Gift-Giving?",
   description: "[description]",
   ogTitle: "[og:title]",
   ogDescription: "[og:description]",
@@ -35,9 +34,9 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">August 29, 2023</span>
             <section>
-              <h3 class="no-spc">
+              <h1 class="no-spc">
                 How Utility Tokens Revolutionized the Gift-Giving?
-              </h3>
+              </h1>
               <figure>
                 <img
                   src="/assets/images/gift-4th-sept.webp"
@@ -72,10 +71,10 @@ useHead({
                 Utility tokens provide access to goods, services, or features,
                 creating a unique and personalized gift-giving experience.
               </p>
-              <h3>
+              <h2>
                 Unveiling Public Reactions: Gift-Giving Revolution via Utility
                 Tokens
-              </h3>
+              </h2>
               <p>
                 Generation Z has embraced a groundbreaking shift in the realm of
                 gift-giving. This transformation has been ignited by the rise of
