@@ -1,8 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 useSeoMeta({
-  title:
-    "What are the Different Ways to Invest in Cryptocurrency? | by GiftBox Token",
+  title: "What are the Different Ways to Invest in Cryptocurrency?",
   description: "[description]",
   ogTitle: "[og:title]",
   ogDescription: "[og:description]",
@@ -35,9 +34,9 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">July 25, 2023</span>
             <section>
-              <h3 class="no-spc">
+              <h1 class="no-spc">
                 What are the Different Ways to Invest in Cryptocurrency?
-              </h3>
+              </h1>
               <figure>
                 <img
                   src="/assets/images/invest-in-crypto.webp"
@@ -57,7 +56,7 @@ useHead({
                 portfolio or a curious newcomer eager to seize the future,
                 fasten your seatbelts as we unlock the vault of crypto riches!
               </p>
-              <h3>Why invest in cryptocurrency?</h3>
+              <h2>Why invest in cryptocurrency?</h2>
               <p>
                 Cryptocurrency investment has gained immense popularity. More
                 and more individuals are recognizing the potential of digital

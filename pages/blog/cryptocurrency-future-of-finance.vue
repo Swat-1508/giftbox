@@ -34,7 +34,7 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">July 18, 2023</span>
             <section>
-              <h3 class="no-spc">Cryptocurrency: Future of Finance</h3>
+              <h1 class="no-spc">Cryptocurrency: Future of Finance</h1>
               <figure>
                 <img
                   src="/assets/images/crypto.webp"
