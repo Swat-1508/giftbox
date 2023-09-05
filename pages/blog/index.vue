@@ -61,6 +61,34 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
+              src="/assets/images/best-practice-crypto.jpg"
+              class="img-fluid"
+              alt="10 Best Practices to Secure Your Crypto Wallet"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">01/08/2023</span>
+          <section>
+            <h1 class="no-spc">
+              10 Best Practices to Secure Your Crypto Wallet
+            </h1>
+            <p>
+              Overview Cryptocurrencies have gained significant popularity
+              recently, attracting investors and enthusiasts worldwide.....
+              <a href="/blog/10-best-practices-to-secure-your-crypto-wallet"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
               src="/assets/images/crypto-safeguard.jpg"
               class="img-fluid"
               alt="Different Types of Crypto Wallets to Safeguard Your Cryptocurrencies"
@@ -71,10 +99,10 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">29/07/2023</span>
           <section>
-            <h3 class="no-spc">
+            <h2>
               Different Types of Crypto Wallets to Safeguard Your
               Cryptocurrencies
-            </h3>
+            </h2>
             <p>
               With the rising popularity of cryptocurrencies, cyber threats and
               hacks have become more prevalent than ever.....
@@ -101,7 +129,7 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">27/07/2023</span>
           <section>
-            <h3 class="no-spc">
+            <h3>
               What is a Crypto Wallet, Why is it Important, and How Does it
               Work?
             </h3>

@@ -34,9 +34,7 @@ useHead({
           <div class="col-sm-12">
             <span class="datetime">August 29, 2023</span>
             <section>
-              <h1 class="no-spc">
-                How Utility Tokens Revolutionized the Gift-Giving?
-              </h1>
+              <h1>How Utility Tokens Revolutionized the Gift-Giving?</h1>
               <figure>
                 <img
                   src="/assets/images/gift-4th-sept.webp"
@@ -55,7 +53,7 @@ useHead({
                 In this blog post, we’ll delve into the world of utility tokens
                 and explore how they are reshaping the gifting industry.
               </p>
-              <h3>Understanding the Power of Utility Tokens: A Primer</h3>
+              <h2>Understanding the Power of Utility Tokens: A Primer</h2>
               <p>
                 tility tokens, a type of digital asset built on blockchain
                 technology, hold intrinsic value within a specific ecosystem.
@@ -71,10 +69,10 @@ useHead({
                 Utility tokens provide access to goods, services, or features,
                 creating a unique and personalized gift-giving experience.
               </p>
-              <h2>
+              <h3>
                 Unveiling Public Reactions: Gift-Giving Revolution via Utility
                 Tokens
-              </h2>
+              </h3>
               <p>
                 Generation Z has embraced a groundbreaking shift in the realm of
                 gift-giving. This transformation has been ignited by the rise of
@@ -196,7 +194,7 @@ useHead({
                 dynamic encourages sustained interaction and fosters stronger
                 relationships between brands and customers.
               </p>
-              <h3>Future Outlook</h3>
+              <h4>Future Outlook</h4>
               <p>
                 While the
                 <a href="https://giftbox.network/"
@@ -208,7 +206,7 @@ useHead({
                 of gifting and the innovative features of utility tokens will be
                 crucial for long-term success.
               </p>
-              <h3>Conclusion</h3>
+              <h4>Conclusion</h4>
               <p>
                 The rise of utility tokens has transformed the way we approach
                 gift-giving, making it more personalized, convenient, and

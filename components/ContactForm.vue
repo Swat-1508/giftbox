@@ -7,7 +7,6 @@
           class="form-control"
           id="Name"
           autocomplete="off"
-          aria-describedby="nameHelp"
           v-model="cform.name"
           placeholder="Your name*"
         />

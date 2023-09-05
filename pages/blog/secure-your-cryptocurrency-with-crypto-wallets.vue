@@ -104,7 +104,7 @@ useHead({
                 ecosystem.
               </p>
 
-              <h4>Why is a crypto wallet important?</h4>
+              <h3>Why is a crypto wallet important?</h3>
               <p>
                 Crypto wallets hold significant importance within the blockchain
                 and cryptocurrency ecosystem as they fulfill various crucial
@@ -127,7 +127,7 @@ useHead({
                   <strong>To ease the buy & sell of crypto holdings</strong>
                 </p>
               </blockquote>
-              <h4>To manage your crypto holdings</h4>
+              <h3>To manage your crypto holdings</h3>
               <p>
                 Cryptocurrency wallets serve as gateways to access your
                 cryptocurrency holdings. You need a private key, which is
@@ -142,7 +142,7 @@ useHead({
                 managing, and tracking multiple assets in one place allows for
                 efficient portfolio management and strategic decision-making.
               </p>
-              <h4>To secure your transactions</h4>
+              <h3>To secure your transactions</h3>
               <p>
                 Amidst the ever-present cyber-attack threat, crypto wallets are
                 a reliable shield for your crypto holdings. By safeguarding your
@@ -150,7 +150,7 @@ useHead({
                 wallets play a crucial role in ensuring the security and
                 protection of your valuable assets.
               </p>
-              <h4>To ease the buy & sell of crypto holdings</h4>
+              <h3>To ease the buy & sell of crypto holdings</h3>
               <p>
                 Cryptocurrency wallets have emerged as indispensable tools that
                 simplify the process of sending and receiving digital currencies
