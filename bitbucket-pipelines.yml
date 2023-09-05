@@ -5,7 +5,6 @@ pipelines:
     release/production:
       - step:
           name: Build and Deploy to AWS S3
-          deployment: production
           caches:
             - node
           script:
