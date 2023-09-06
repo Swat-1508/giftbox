@@ -61,6 +61,93 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
+              src="/assets/images/series-three.jpg"
+              class="img-fluid"
+              alt="Crypto Token Series — III"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">08/08/2023</span>
+          <section>
+            <h1>Crypto Token Series — III: Do Crypto Tokens Have Value?</h1>
+            <p>
+              In the ever-expanding space of crypto tokens, a common question
+              often arises: “Do crypto tokens....
+              <a
+                href="/blog/crypto-token-series-iii-do-crypto-tokens-have-value"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/series-crypto-two.jpg"
+              class="img-fluid"
+              alt="Crypto Token Series"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">05/08/2023</span>
+          <section>
+            <h2>
+              Crypto Token Series — II: What are the Different Types of Crypto
+              Tokens?
+            </h2>
+            <p>
+              The world of cryptocurrency is a rapidly evolving landscape that
+              continues to captivate both investors....
+              <a
+                href="/blog/crypto-token-series-ii-what-are-the-different-types-of-crypto-tokens"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/series-crypto.jpg"
+              class="img-fluid"
+              alt="Crypto Token Series"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">03/08/2023</span>
+          <section>
+            <h3>
+              Crypto Token Series — I: What is a Crypto Token & How Does It
+              Works?
+            </h3>
+            <p>
+              Blockchain technology’s inception has given birth to many new
+              digital assets, including cryptocurrencies, that....
+              <a
+                href="/blog/crypto-token-series-i-what-is-a-crypto-token-how-does-it-works"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
               src="/assets/images/best-practice-crypto.jpg"
               class="img-fluid"
               alt="10 Best Practices to Secure Your Crypto Wallet"
@@ -71,9 +158,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">01/08/2023</span>
           <section>
-            <h1 class="no-spc">
+            <h3 class="no-spc">
               10 Best Practices to Secure Your Crypto Wallet
-            </h1>
+            </h3>
             <p>
               Overview Cryptocurrencies have gained significant popularity
               recently, attracting investors and enthusiasts worldwide.....
@@ -99,10 +186,10 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">29/07/2023</span>
           <section>
-            <h2>
+            <h3>
               Different Types of Crypto Wallets to Safeguard Your
               Cryptocurrencies
-            </h2>
+            </h3>
             <p>
               With the rising popularity of cryptocurrencies, cyber threats and
               hacks have become more prevalent than ever.....
