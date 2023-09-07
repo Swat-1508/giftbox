@@ -30,33 +30,95 @@ useHead({
 <template>
   <div class="blog-sec main-page-blog">
     <div class="container">
-      <!-- <div class="row sec-blog">
+      <div class="row sec-blog">
         <div class="col-sm-3">
           <figure>
             <img
-              src="/assets/images/gift-29thaug-thumb.jpg"
+              src="/assets/images/crypto-mining-two.jpg"
               class="img-fluid"
-              alt="Corporate Gifting"
+              alt="Crypto mining II"
             />
           </figure>
         </div>
 
         <div class="col-sm-9">
-          <span class="datetime">29/08/2023</span>
+          <span class="datetime">12/08/2023</span>
           <section>
-            <h3 class="no-spc">
-              How Utility Tokens Revolutionized the Gift-Giving?
-            </h3>
+            <h1>
+              Crypto Mining Series — II: What are the Different Methods of
+              Crypto Mining?
+            </h1>
             <p>
-              Blockchain in the form of Cryptocurrencies are revolutionizing
-              industries in unprecedented ways....
-              <a href="/blog/how-utility-tokens-revolutionized-the-gift-giving"
+              The mining landscape can be categorized based on equipment,
+              processes, hardware, and consensus....
+              <a
+                href="/blog/crypto-mining-series-ii-what-are-the-different-methods-of-crypto-mining"
                 >Read more</a
               >
             </p>
           </section>
         </div>
-      </div> -->
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/market-capitalization.jpg"
+              class="img-fluid"
+              alt="Market Capitalization"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">11/08/2023</span>
+          <section>
+            <h2>
+              Market Capitalization: A Key Metric to Evaluate Cryptocurrency
+            </h2>
+            <p>
+              The top 10 companies with the highest market caps account for over
+              20% of the global stock market ....
+              <a
+                href="/blog/market-capitalization-a-key-metric-to-evaluate-cryptocurrency"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/crypto-mining-one.jpg"
+              class="img-fluid"
+              alt="Crypto Token Series — III"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">10/08/2023</span>
+          <section>
+            <h3 class="no-spc">
+              Crypto Mining Series — I: Understanding the Basics of
+              Cryptocurrency Mining
+            </h3>
+            <p>
+              Cryptocurrency Mining is a crucial pillar in cryptocurrencies,
+              facilitating secure transactions....
+              <a
+                href="/blog/crypto-mining-series-i-understanding-the-basics-of-cryptocurrency-mining"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
       <div class="row sec-blog">
         <div class="col-sm-3">
           <figure>
@@ -71,7 +133,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">08/08/2023</span>
           <section>
-            <h1>Crypto Token Series — III: Do Crypto Tokens Have Value?</h1>
+            <h3 class="no-spc">
+              Crypto Token Series — III: Do Crypto Tokens Have Value?
+            </h3>
             <p>
               In the ever-expanding space of crypto tokens, a common question
               often arises: “Do crypto tokens....
@@ -98,10 +162,10 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">05/08/2023</span>
           <section>
-            <h2>
+            <h3 class="no-spc">
               Crypto Token Series — II: What are the Different Types of Crypto
               Tokens?
-            </h2>
+            </h3>
             <p>
               The world of cryptocurrency is a rapidly evolving landscape that
               continues to captivate both investors....
@@ -128,7 +192,7 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">03/08/2023</span>
           <section>
-            <h3>
+            <h3 class="no-spc">
               Crypto Token Series — I: What is a Crypto Token & How Does It
               Works?
             </h3>
@@ -186,7 +250,7 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">29/07/2023</span>
           <section>
-            <h3>
+            <h3 class="no-spc">
               Different Types of Crypto Wallets to Safeguard Your
               Cryptocurrencies
             </h3>
@@ -216,7 +280,7 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">27/07/2023</span>
           <section>
-            <h3>
+            <h3 class="no-spc">
               What is a Crypto Wallet, Why is it Important, and How Does it
               Work?
             </h3>
