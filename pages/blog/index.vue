@@ -34,6 +34,116 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
+              src="/assets/images/ut-token-three.jpg"
+              class="img-fluid"
+              alt="Utility Token Series — III"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">20/08/2023</span>
+          <section>
+            <h1>Utility Token Series — III: Use Cases of Utility Tokens</h1>
+            <p>
+              In the dazzling tapestry of technological advancement, a meteoric
+              force is sweeping across industries....
+              <a
+                href="/blog/utility-token-series-iii-use-cases-of-utility-tokens"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/security-token.jpg"
+              class="img-fluid"
+              alt="Crypto mining II"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">19/08/2023</span>
+          <section>
+            <h2>
+              Utility Token Series — II: Utility Tokens Vs Security Tokens
+            </h2>
+            <p>
+              In the ever-evolving landscape of the digital age, tokens and
+              cryptocurrencies have given....
+              <a
+                href="/blog/utility-token-series-ii-utility-tokens-vs-security-tokens"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/token-series-one.jpg"
+              class="img-fluid"
+              alt="Utility Token Series — I"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">17/08/2023</span>
+          <section>
+            <h3>Utility Token Series — I: Introduction to Utility Tokens</h3>
+            <p>
+              In crypto, utility tokens have emerged as unsung heroes, offering
+              more than mere digital coins. These....
+              <a
+                href="/blog/utility-token-series-i-introduction-to-utility-tokens"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/mining-series-three.jpg"
+              class="img-fluid"
+              alt="Crypto Mining Series — III"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">16/08/2023</span>
+          <section>
+            <h3>Crypto Mining Series — III: Is Crypto Mining Profitable?</h3>
+            <p>
+              Generating profits through crypto mining necessitates meticulous
+              analysis, effective risk mitigation....
+              <a
+                href="/blog/crypto-mining-series-iii-is-crypto-mining-profitable"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
               src="/assets/images/crypto-mining-two.jpg"
               class="img-fluid"
               alt="Crypto mining II"
@@ -44,10 +154,10 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">12/08/2023</span>
           <section>
-            <h1>
+            <h3 class="no-spc">
               Crypto Mining Series — II: What are the Different Methods of
               Crypto Mining?
-            </h1>
+            </h3>
             <p>
               The mining landscape can be categorized based on equipment,
               processes, hardware, and consensus....
@@ -74,9 +184,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">11/08/2023</span>
           <section>
-            <h2>
+            <h3 class="no-spc">
               Market Capitalization: A Key Metric to Evaluate Cryptocurrency
-            </h2>
+            </h3>
             <p>
               The top 10 companies with the highest market caps account for over
               20% of the global stock market ....
