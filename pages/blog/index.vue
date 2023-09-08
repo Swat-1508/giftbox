@@ -100,7 +100,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">17/08/2023</span>
           <section>
-            <h3>Utility Token Series — I: Introduction to Utility Tokens</h3>
+            <h3 class="no-spc">
+              Utility Token Series — I: Introduction to Utility Tokens
+            </h3>
             <p>
               In crypto, utility tokens have emerged as unsung heroes, offering
               more than mere digital coins. These....
@@ -127,7 +129,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">16/08/2023</span>
           <section>
-            <h3>Crypto Mining Series — III: Is Crypto Mining Profitable?</h3>
+            <h3 class="no-spc">
+              Crypto Mining Series — III: Is Crypto Mining Profitable?
+            </h3>
             <p>
               Generating profits through crypto mining necessitates meticulous
               analysis, effective risk mitigation....
