@@ -34,6 +34,147 @@ useHead({
         <div class="col-sm-3">
           <figure>
             <img
+              src="/assets/images/real-world.jpg"
+              class="img-fluid"
+              alt="NFT(Non-Fungible Token)"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">05/09/2023</span>
+          <section>
+            <h1>6 Real-World Applications of Utility Tokens in Gift-Giving</h1>
+            <p>
+              In an age where digital currencies are reshaping our world, it
+              comes as no surprise that even the....
+              <a
+                href="/blog/6-real-world-applications-of-utility-tokens-in-gift-giving"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/gift-29thaug-thumb.jpg"
+              class="img-fluid"
+              alt="NFT(Non-Fungible Token)"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">29/08/2023</span>
+          <section>
+            <h2>How Utility Tokens Revolutionized the Gift-Giving?</h2>
+            <p>
+              Blockchain in the form of Cryptocurrencies are revolutionizing
+              industries in unprecedented ways....
+              <a href="/blog/how-utility-tokens-revolutionized-the-gift-giving"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/nft-series-three.jpg"
+              class="img-fluid"
+              alt="NFT(Non-Fungible Token)"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">27/08/2023</span>
+          <section>
+            <h3 class="no-spc">
+              NFT (Non-Fungible Token) — Series III: How do you buy an NFT?
+            </h3>
+            <p>
+              The world of Non-Fungible Tokens (NFTs) has opened up exciting
+              opportunities for digital....
+              <a
+                href="/blog/nft-non-fungible-token-series-iii-how-do-you-buy-an-nft"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/nft-series-two.jpg"
+              class="img-fluid"
+              alt="NFT(Non-Fungible Token)"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">26/08/2023</span>
+          <section>
+            <h3 class="no-spc">
+              NFT (Non-Fungible Token)— Series II: How Does NFT Work & its Use
+              Cases?
+            </h3>
+            <p>
+              NFT has been making waves with increasing frequency. NFT stands
+              for Non-Fungible Token....
+              <a
+                href="/blog/nft-non-fungible-token-series-ii-how-does-nft-work-its-use-cases"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
+              src="/assets/images/nft-series-one.jpg"
+              class="img-fluid"
+              alt="NFT(Non-Fungible Token)"
+            />
+          </figure>
+        </div>
+
+        <div class="col-sm-9">
+          <span class="datetime">22/08/2023</span>
+          <section>
+            <h3 class="no-spc">
+              NFT(Non-Fungible Token)— Series I: Introduction to NFT
+              (Non-Fungible Token)
+            </h3>
+            <p>
+              Non-Fungible Tokens (NFTs) have taken the world by storm and
+              emerged as the new frontier....
+              <a
+                href="/blog/non-fungible-token-nft-series-i-introduction-to-nft-non-fungible-token"
+                >Read more</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="row sec-blog">
+        <div class="col-sm-3">
+          <figure>
+            <img
               src="/assets/images/ut-token-three.jpg"
               class="img-fluid"
               alt="Utility Token Series — III"
@@ -44,7 +185,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">20/08/2023</span>
           <section>
-            <h1>Utility Token Series — III: Use Cases of Utility Tokens</h1>
+            <h3 class="no-spc">
+              Utility Token Series — III: Use Cases of Utility Tokens
+            </h3>
             <p>
               In the dazzling tapestry of technological advancement, a meteoric
               force is sweeping across industries....
@@ -71,9 +214,9 @@ useHead({
         <div class="col-sm-9">
           <span class="datetime">19/08/2023</span>
           <section>
-            <h2>
+            <h3 class="no-spc">
               Utility Token Series — II: Utility Tokens Vs Security Tokens
-            </h2>
+            </h3>
             <p>
               In the ever-evolving landscape of the digital age, tokens and
               cryptocurrencies have given....
