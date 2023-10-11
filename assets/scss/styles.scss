@@ -214,6 +214,11 @@ h3 {
       max-height: 61vh;
     }
   }
+  .theme-btn {
+    display: inline-block;
+    width: 200px;
+    margin-top: 24px;
+  }
 }
 .marquee-section {
   background: url("/assets/images/marquee-bg.png") left top no-repeat;
@@ -399,6 +404,149 @@ h3 {
     color: #fff;
     font-weight: 700;
     display: block;
+  }
+}
+.tab-sec {
+  background: #111b34;
+  padding: 160px 0;
+  h3 {
+    margin-bottom: 48px;
+    font-size: 56px;
+  }
+  p {
+    color: #8da3db;
+    width: 66%;
+  }
+  .tab-content {
+    margin: 0px 0 0;
+    img {
+      margin-top: -92px;
+      padding-right: 24px;
+    }
+  }
+  .nav-tabs {
+    border-bottom: 0px;
+    margin-bottom: 56px;
+    .nav-link {
+      border-radius: 28px;
+      background: #223871;
+      color: #8ca2db;
+      margin-right: 20px;
+      font-size: 16px;
+      border: 0;
+      &.active,
+      &:hover {
+        border: 0;
+        color: #000000;
+        background: rgb(27, 225, 224);
+        background: linear-gradient(
+          90deg,
+          rgba(27, 225, 224, 1) 0%,
+          rgba(74, 128, 254, 1) 100%
+        );
+      }
+    }
+  }
+}
+.sec-three {
+  background: #162548;
+  padding: 160px 0;
+  .sec-inner-three {
+    text-align: center;
+    padding: 0 5%;
+    figure {
+      margin-bottom: 36px;
+      img {
+        max-width: 240px;
+        align-self: center;
+        margin: 0 auto;
+      }
+    }
+    h4 {
+      margin-bottom: 24px;
+    }
+    p {
+      color: #8da3db;
+    }
+  }
+}
+.unlock-bonus {
+  padding: 160px 0;
+  h5 {
+    font-size: 56px;
+    margin-bottom: 32px;
+  }
+  p {
+    color: #8da3db;
+    width: 75%;
+    &.text-center {
+      margin: 0 auto;
+      width: 90%;
+    }
+  }
+  figure {
+    margin: 32px 0;
+  }
+}
+.giftbox-sagoon {
+  padding: 160px 0;
+  background: #162548;
+  text-align: center;
+  .btn {
+    width: 200px;
+    margin: 0 auto;
+  }
+  h3 {
+    font-size: 56px;
+    margin-bottom: 56px;
+    span {
+      color: gray;
+      font-weight: 700;
+    }
+  }
+  figure {
+    margin-bottom: 56px;
+  }
+  p {
+    color: #8da3db;
+  }
+  .theme-btn {
+    width: 220px;
+    margin: 36px auto 0;
+  }
+}
+.founders-club {
+  padding: 160px 0;
+  h3 {
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+  h4 {
+    font-size: 28px;
+    margin-bottom: 56px;
+    color: #8da3db;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  p {
+    margin-bottom: 32px;
+    color: #8da3db;
+    width: 80%;
+  }
+  figure {
+    width: 162px;
+    height: 162px;
+    border-radius: 8px;
+    background: #162548;
+    display: inline-flex;
+    justify-content: center;
+    img {
+      width: 60%;
+      align-self: center;
+    }
   }
 }
 
@@ -1041,7 +1189,7 @@ h3 {
   }
 
   .sec-block-chain {
-    padding: 96px 0 0;
+    padding: 96px 0 36px;
     background-size: 50vw auto;
     h2 {
       margin-bottom: 28px;
@@ -1156,6 +1304,41 @@ h3 {
       }
     }
   }
+  .tab-sec .nav-tabs .nav-link {
+    margin-right: 12px;
+    font-size: 14px;
+  }
+
+  .founders-club figure {
+    width: 102px;
+    height: 102px;
+  }
+  .tab-sec {
+    padding: 56px 0;
+    .nav-tabs {
+      margin-bottom: 16px;
+    }
+    .tab-content img {
+      margin-top: 0px;
+      padding-right: 0;
+    }
+    h3 {
+      margin-bottom: 28px;
+      font-size: 36px;
+    }
+  }
+  .giftbox-sagoon {
+    padding: 56px 0;
+  }
+  .founders-club {
+    padding: 56px 0;
+  }
+  .sec-three {
+    padding: 56px 0;
+  }
+  .unlock-bonus {
+    padding: 56px 0;
+  }
 }
 @media (max-width: 991px) {
   .banner-main h1,
@@ -1210,6 +1393,64 @@ h3 {
     figure {
       margin-bottom: 32px;
     }
+  }
+  .banner-main .theme-btn {
+    margin-bottom: 32px;
+  }
+  .tab-sec {
+    padding: 56px 0;
+    .nav-tabs {
+      margin-bottom: 16px;
+    }
+    .tab-content img {
+      margin-top: 0px;
+      padding-right: 0;
+    }
+    h3 {
+      margin-bottom: 28px;
+      font-size: 36px;
+    }
+  }
+  .giftbox-sagoon {
+    padding: 56px 0;
+    h3 {
+      margin-bottom: 28px;
+      font-size: 36px;
+    }
+    .theme-btn {
+      margin: 16px auto 0;
+    }
+  }
+  .founders-club {
+    padding: 56px 0;
+    h3 {
+      margin-bottom: 28px;
+      font-size: 36px;
+    }
+    h4 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    h5 {
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+  }
+  .sec-three {
+    padding: 56px 0;
+  }
+  .unlock-bonus {
+    padding: 56px 0;
+    h5 {
+      font-size: 36px;
+      margin-bottom: 28px;
+    }
+  }
+  .tab-sec p {
+    width: 100%;
+  }
+  .sec-three .sec-inner-three figure img {
+    max-width: 180px;
   }
 }
 
@@ -1295,6 +1536,49 @@ h3 {
   .join-community {
     padding: 48px 0;
   }
+  .tab-sec .nav-tabs .nav-link {
+    margin-right: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .tab-sec h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .founders-club h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .founders-club h4 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .sec-three .sec-inner-three figure {
+    margin-bottom: 8px;
+  }
+  .unlock-bonus p {
+    color: #8da3db;
+    width: 100%;
+  }
+  .founders-club p {
+    margin-bottom: 20px;
+    width: 96%;
+  }
+  .founders-club {
+    text-align: center;
+  }
+  .giftbox-sagoon {
+    padding: 36px 0;
+  }
+  .founders-club {
+    padding: 36px 0;
+  }
+  .sec-three {
+    padding: 36px 0;
+  }
+  .unlock-bonus {
+    padding: 36px 0;
+  }
 }
 @media (max-width: 575px) {
   .col-12,
@@ -1305,8 +1589,8 @@ h3 {
     margin: 0;
     .banner-txt {
       h1 {
-        line-height: 60px;
-        font-size: 40px;
+        line-height: 48px;
+        font-size: 34px;
       }
     }
   }
