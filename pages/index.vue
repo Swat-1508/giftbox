@@ -48,14 +48,6 @@ useHead({
               Celebrate your special ocassions on a GiftBox powered platform
               today!
             </p>
-
-            <NuxtLink
-              href="https://sagoon.com/"
-              target="_blank"
-              class="theme-btn"
-            >
-              Explore GiftBox
-            </NuxtLink>
           </div>
           <div
             class="col-sm-12 col-lg-6 text-left"
@@ -276,7 +268,7 @@ useHead({
             than 7 Million users - is now powered by GiftBox!
           </p>
           <NuxtLink
-            href="https://sagoon.com/"
+            href="https://bit.ly/3PJKCVM"
             target="_blank"
             class="theme-btn"
           >
