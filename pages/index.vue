@@ -36,17 +36,12 @@ useHead({
       <div class="container">
         <div class="row">
           <div class="col-lg-6 banner-txt" data-aos="fade-right">
-            <h1>
-              Earn Rewards for<br />
-              Celebrating
-            </h1>
+            <h1>Celebration with The Future of Digital Gifting</h1>
             <p>
-              GiftBox is an engage-to-earn crypto ecosystem that facilitates a
-              memorable and a rewarding gift-giving experience.
-            </p>
-            <p>
-              Celebrate your special ocassions on a GiftBox powered platform
-              today!
+              Giftbox Network redefines digital gifting, combining NFTs and
+              cryptocurrencies to create a groundbreaking experience. Send
+              unique NFTs as gifts, backed by real crypto tokens, and unlock a
+              new dimension of value.
             </p>
           </div>
           <div
