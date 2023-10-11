@@ -37,14 +37,25 @@ useHead({
         <div class="row">
           <div class="col-lg-6 banner-txt" data-aos="fade-right">
             <h1>
-              Your time!<br />
-              Your money!<br />
-              You earn GiftBox tokens!
+              Earn Rewards for<br />
+              Celebrating
             </h1>
             <p>
-              GiftBox is an engage-to-earn crypto utility token that facilitates
-              a unified gift-giving experience for platform users.
+              GiftBox is an engage-to-earn crypto ecosystem that facilitates a
+              memorable and a rewarding gift-giving experience.
             </p>
+            <p>
+              Celebrate your special ocassions on a GiftBox powered platform
+              today!
+            </p>
+
+            <NuxtLink
+              href="https://sagoon.com/"
+              target="_blank"
+              class="theme-btn"
+            >
+              Explore GiftBox
+            </NuxtLink>
           </div>
           <div
             class="col-sm-12 col-lg-6 text-left"
@@ -69,6 +80,387 @@ useHead({
         <p>Mission: GiftBox token aims to be the future gifting currency!</p>
         <p>Mission: GiftBox token aims to be the future gifting currency!</p>
       </Vue3Marquee>
+    </div>
+
+    <div class="tab-sec" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-sm-12"></div>
+              <div class="col-lg-8 col-sm-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#home-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="home-tab-pane"
+                      aria-selected="true"
+                    >
+                      Celebrations
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="profile-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#profile-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="profile-tab-pane"
+                      aria-selected="false"
+                    >
+                      Earn Rewards
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#contact-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="contact-tab-pane"
+                      aria-selected="false"
+                    >
+                      Secure Transactions
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="nft-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nft-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="nft-tab-pane"
+                      aria-selected="false"
+                    >
+                      NFT Based Gifting
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home-tab-pane"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12">
+                    <img
+                      src="/assets/images/tab-fig-one.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <h3>Unforgettable Digital Celebrations</h3>
+                    <p>
+                      Rejoice special occasions exchanging gifts from a variety
+                      of choices on decentralized platforms powered by GiftBox.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile-tab-pane"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12">
+                    <img
+                      src="/assets/images/tab-fig-two.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <h3>Earn GiftBox tokens for Engagement</h3>
+                    <p>
+                      Participate in events and celebrations, and earn rewards
+                      in the form of GiftBox tokens for the time that you spend
+                      on the platform!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact-tab-pane"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12">
+                    <img
+                      src="/assets/images/tab-fig-three.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <h3>Secure Wallet & Transactions</h3>
+                    <p>
+                      Our blockchain ecosystem facilitates seamless and secure
+                      transactions while you purchase gifts. All GiftBox tokens,
+                      NFTs you receive will be stored safely in your wallet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nft-tab-pane"
+                role="tabpanel"
+                aria-labelledby="nft-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12">
+                    <img
+                      src="/assets/images/tab-fig-four.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <h3>GiftBox NFT : Bonus Value With Every Gift</h3>
+                    <p>
+                      GiftBox NFT is a hamper filled with crypto tokens and
+                      exciting collectibles. Priced for the value of primary
+                      tokens - we’ll sprinkle more value with partner tokens!
+                    </p>
+                    <p>
+                      Share GiftBox NFTs between users in celebrations, or get
+                      rewarded with GiftBox NFTs from platforms!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="giftbox-sagoon" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <h3>GiftBox <span>X</span> Sagoon</h3>
+          <figure>
+            <img
+              src="/assets/images/giftbox-fig-min.png"
+              class="img-fluid"
+              alt=""
+            />
+          </figure>
+          <p>
+            Sagoon, a feature rich online celebration platform loved by more
+            than 7 Million users - is now powered by GiftBox!
+          </p>
+          <NuxtLink
+            href="https://sagoon.com/"
+            target="_blank"
+            class="theme-btn"
+          >
+            Download Sagoon
+          </NuxtLink>
+        </div>
+      </div>
+    </div>
+
+    <div class="founders-club" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>The Founders’ Club DAO</h3>
+            <h4>
+              Invest in the growth of GiftBox.<br />
+              We’ll invest in your entrepreneurial journey.
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-2 col-sm-12">
+                <figure>
+                  <img
+                    src="/assets/images/club-one.png"
+                    class="img-fluid"
+                    alt="Priority Voting Rights"
+                  />
+                </figure>
+              </div>
+              <div class="col-lg-8 col-md-10 col-sm-12">
+                <h5>Priority Voting Rights</h5>
+                <p>Influence decisions that shape the future of GiftBox</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-2 col-sm-12">
+                <figure>
+                  <img
+                    src="/assets/images/club-two.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div class="col-lg-8 col-md-10 col-sm-12">
+                <h5>Exclusive Investment Opportunities</h5>
+                <p>
+                  Investment advice from the best financial minds in our team,
+                  plus a chance to invest in new age startups.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-2 col-sm-12">
+                <figure>
+                  <img
+                    src="/assets/images/club-three.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div class="col-lg-8 col-md-10 col-sm-12">
+                <h5>10% - 20% Revenue Share</h5>
+                <p>
+                  Earn upto 20 percent of Giftbox’s revenue share for your
+                  contribution.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-2 col-sm-12">
+                <figure>
+                  <img
+                    src="/assets/images/club-four.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div class="col-lg-8 col-md-10 col-sm-12">
+                <h5>Earn GiftBox Tokens</h5>
+                <p>
+                  Your effort and contribution towards helping our platform grow
+                  will be rewarded with GiftBox tokens on a regular basis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-three" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="sec-inner-three">
+              <figure>
+                <img
+                  src="/assets/images/tab-fig-one.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </figure>
+              <h4>Unforgettable Digital Celebrations</h4>
+              <p>
+                Rejoice special occasions exchanging gifts from a variety of
+                choices on a decentralized marketplace
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="sec-inner-three">
+              <figure>
+                <img
+                  src="/assets/images/tab-fig-two.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </figure>
+              <h4>Earn GiftBox tokens for Engagement</h4>
+              <p>
+                Participate in events and celebrations, and earn rewards for the
+                time that you spend
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="sec-inner-three">
+              <figure>
+                <img
+                  src="/assets/images/tab-fig-three.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </figure>
+              <h4>
+                Secure<br />
+                Transactions
+              </h4>
+              <p>
+                Our blockchain ecosystem facilitates seamless and secure
+                transactions with the GiftBox token.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="unlock-bonus" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h5>Unlock a Bonus Value with Every Gift</h5>
+            <p>
+              GiftBox NFT is a hamper filled with crypto tokens and exciting
+              collectibles. Priced for the value of primary tokens - we’ll
+              sprinkle more value with partner tokens!
+            </p>
+            <figure class="text-center">
+              <img src="/assets/images/gift-tag.png" class="img-fluid" alt="" />
+            </figure>
+            <p class="text-center">
+              <strong
+                >Share GiftBox NFTs between users in celebrations, or get
+                rewarded with GiftBox NFTs from platforms!</strong
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="sec-block-chain" data-aos="fade-up">
