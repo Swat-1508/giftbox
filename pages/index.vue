@@ -36,12 +36,17 @@ useHead({
       <div class="container">
         <div class="row">
           <div class="col-lg-6 banner-txt" data-aos="fade-right">
-            <h1>Celebration with The Future of Digital Gifting</h1>
+            <h1>
+              Earn Rewards for<br />
+              Celebrating
+            </h1>
             <p>
               Giftbox Network redefines digital gifting, combining NFTs and
-              cryptocurrencies to create a groundbreaking experience. Send
-              unique NFTs as gifts, backed by real crypto tokens, and unlock a
-              new dimension of value.
+              cryptocurrencies to create a groundbreaking experience.
+            </p>
+            <p>
+              Send unique NFTs as gifts, backed by real crypto tokens, and
+              unlock a new dimension of value.
             </p>
           </div>
           <div
@@ -156,8 +161,8 @@ useHead({
                   <div class="col-lg-8 col-sm-12">
                     <h3>Unforgettable Digital Celebrations</h3>
                     <p>
-                      Rejoice special occasions exchanging gifts from a variety
-                      of choices on decentralized platforms powered by GiftBox.
+                      Rejoice special occasions by exchanging gifts from a
+                      variety of choices on platforms powered by GiftBox.
                     </p>
                   </div>
                 </div>
@@ -366,7 +371,7 @@ useHead({
       </div>
     </div>
 
-    <div class="sec-three" data-aos="fade-up">
+    <!-- <div class="sec-three" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-sm-12">
@@ -424,7 +429,7 @@ useHead({
           </div>
         </div>
       </div>
-    </div>
+    </div> 
 
     <div class="unlock-bonus" data-aos="fade-up">
       <div class="container">
@@ -592,7 +597,7 @@ useHead({
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class="tokenomics" data-aos="fade-up">
       <div class="tokenomics-inner">
