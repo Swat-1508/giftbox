@@ -284,7 +284,7 @@ useHead({
           <div class="col-sm-12">
             <h3>The Founders’ Club DAO</h3>
             <h4>
-              Invest in the growth of GiftBox.<br />
+              You support the growth of GiftBox.<br />
               We’ll invest in your entrepreneurial journey.
             </h4>
           </div>

@@ -175,13 +175,14 @@ h3 {
 }
 /**********banner section***********/
 .banner-main {
-  min-height: calc(100vh - 240px);
-  display: flex;
+  z-index: 1;
   align-items: center;
-  /*  background: url("/assets/images/hero_section.jpg") right top no-repeat; */
   background-size: auto 112vh;
+  display: flex;
+  min-height: calc(100vh - 240px);
   position: relative;
   z-index: 1;
+
   .banner-txt {
     display: flex;
     flex-direction: column;
