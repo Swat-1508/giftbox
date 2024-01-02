@@ -28,7 +28,7 @@
           </div>
           <div class="col-sm-6 text-end">
             <span class="copy-right">
-              &copy; 2023 GiftBox Foundation. All rights reserved.
+              &copy; 2024 GiftBox Foundation. All rights reserved.
             </span>
           </div>
         </div>
